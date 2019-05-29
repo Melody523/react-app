@@ -1,0 +1,25 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "imgUrl": "https://haitao.nosdn1.127.net/1d21oa30h11_800_800.jpg?imageView&thumbnail=750x0&quality=75&type=webp"
+        },
+        {
+            "id": 2,
+            "imgUrl": "https://haitao.nosdn2.127.net/1dbc52a3r41_800_800.jpg?imageView&thumbnail=750x0&quality=75&type=webp"
+        },
+        {
+            "id": 3,
+            "imgUrl": "https://haitao.nosdn2.127.net/1d8gb21so96_800_800.jpg?imageView&thumbnail=750x0&quality=75&type=webp"
+        },
+        {
+            "id": 4,
+            "imgUrl": "https://haitao.nosdn1.127.net/1d1s6vefs92_800_800.jpg?imageView&thumbnail=750x0&quality=75&type=webp"
+        },
+        {
+            "id": 5,
+            "imgUrl": "https://haitao.nos.netease.com/1d4knlebr64_800_800.jpg?imageView&thumbnail=750x0&quality=75&type=webp"
+        }
+    ]
+}

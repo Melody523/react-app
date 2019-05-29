@@ -1,0 +1,72 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "title": "限时购",
+            "desc": "13点场",
+            "product": [
+                {
+                    "id": 1,
+                    "imgUrl": "https://haitao.nosdn2.127.net/jk1zmdgd15347.png?imageView&thumbnail=400x0&quality=95",
+                    "now_price": "￥198",
+                    "price": "￥638"
+                },
+                {
+                    "id": 2,
+                    "imgUrl": "https://haitao.nosdn1.127.net/1c4455el33_800_800.png?imageView&thumbnail=400x0&quality=95",
+                    "now_price": "￥209",
+                    "price": "￥299"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "必买清单",
+            "desc": "什么值得买",
+            "product": [
+                {
+                    "id": 1,
+                    "imgUrl": "https://haitao.nosdn1.127.net/78c4b350-ae37-40b1-8f22-801007d86002T19050101508_500_500.jpg?imageView&thumbnail=400x0&quality=95&type=webp"
+                },
+                {
+                    "id": 2,
+                    "imgUrl": "https://haitao.nosdn2.127.net/439567b1-a5f3-49bb-a3a6-0d43ac4e5d4cT19050101459_500_500.jpg?imageView&thumbnail=400x0&quality=95&type=webp"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "考拉奥莱",
+            "desc": "大牌5折清仓",
+            "product": [
+                {
+                    "id": 1,
+                    "imgUrl": "https://haitao.nos.netease.com/c84bf95b-0c22-4577-b80b-1a1bc7672799T1902120959_500_500.jpg?imageView&thumbnail=400x0&quality=95&type=webp"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "好物推荐",
+            "desc": "母亲节送好礼",
+            "product": [
+                {
+                    "id": 1,
+                    "imgUrl": "https://haitao.nosdn1.127.net/Mv1E8HZFd2yTrgleTSbGRNvh1T18062101047_500_500.jpg?imageView&thumbnail=400x0&quality=95&type=webp"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "品牌闪购",
+            "desc": "大牌低至2折",
+            "product": [
+                {
+                    "id": 1,
+                    "imgUrl": "https://haitao.nos.netease.com/wS6iwJKWfC27SgPuEVmH5TtKT18062101044_500_500.jpg?imageView&thumbnail=400x0&quality=95&type=webp"
+                }
+            ]
+        }
+    ]
+}

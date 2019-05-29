@@ -1,0 +1,63 @@
+{
+    "success": true,
+    "top": "https://haitao.nosdn1.127.net/JBhq1RSoTQMZwZtgFhltJ1yAPG-1_10T180101801012_960_112.jpg?imageView&thumbnail=750x88&quality=80&type=webp",
+    "titleImg": "https://haitao.nosdn2.127.net/fe1bd776-4111-43e2-8b4c-96bf382801b4T1905232301_960_480.jpg?imageView&thumbnail=750x375&quality=80&type=webp",
+    "product": [
+        {
+            "id": 1,
+            "imgUrl": "https://pop.nosdn.127.net/27f36fc8-ec75-4e45-9f6a-fab5e7748637?imageView&thumbnail=200x200&quality=80&type=webp",
+            "title": "【淡斑小白瓶】【平价小灯泡】OLAY 玉兰油 Pro-x by 亮洁晳颜精华液 40毫升 2瓶装",
+            "price": "￥569",
+            "huodong": "满399减100"
+        },
+        {
+            "id": 2,
+            "imgUrl": "https://pop.nosdn.127.net/67113675-f9b8-466a-a92d-ed435b0232b7?imageView&thumbnail=200x200&quality=80&type=webp",
+            "title": "Perfect Diary完美日记 探险家十二色动物眼影Discovery联名款12色大地色哑光珠光新手盘老虎盘小猪盘鳄鱼盘",
+            "price": "￥129.9",
+            "huodong": "券满139减10"
+        },
+        {
+            "id": 3,
+            "imgUrl": "https://pop.nosdn.127.net/b8ab8f0b-816f-4a0f-a8c1-fadcb5903632?imageView&thumbnail=200x200&quality=80&type=webp",
+            "title": "gf高夫恒润保湿肌源4件套礼盒装补水保湿套装男士洗面奶水乳液喷雾",
+            "price": "￥358",
+            "huodong": "券满298减30"
+        },
+        {
+            "id": 4,
+            "imgUrl": "https://pop.nosdn.127.net/43008c81-60dc-4407-a268-9acad496d3be?imageView&thumbnail=200x200&quality=80&type=webp",
+            "title": "【领券减3元】AHC 透明质酸系列玻尿酸深层保湿神仙水水乳套盒",
+            "price": "￥129",
+            "huodong": "券满38减3"
+        },
+        {
+            "id": 5,
+            "imgUrl": "https://pop.nosdn.127.net/225b2b84-7659-42bb-8921-fd73cafe0433?imageView&thumbnail=200x200&quality=80&type=webp",
+            "title": "【第2件半价，第3件0元】韩国JMsolution 水光 蜂蜜面膜蚕丝补水滋润超薄保湿 10片/盒",
+            "price": "￥79",
+            "huodong": "满2件减39"
+        },
+        {
+            "id": 6,
+            "imgUrl": "https://pop.nosdn.127.net/f57ce8ea-1848-4e9d-a512-99b62a34e7f1?imageView&thumbnail=200x200&quality=80&type=webp",
+            "title": "【包邮包税】【张嘉倪同款】AMORTALS尔木萄 星空美妆蛋套盒 3只+蛋架/盒 干湿两用海绵美妆蛋",
+            "price": "￥39.9",
+            "huodong": "特价"
+        },
+        {
+            "id": 7,
+            "imgUrl": "https://pop.nosdn.127.net/4f8375d3-a682-42c5-bb12-c3ed0a9c8f96?imageView&thumbnail=200x200&quality=80&type=webp",
+            "title": "【2瓶78元】包邮 JMsolution肌司研(海6珍珠/粉色玫瑰两款可选)防晒喷雾女spf50 180ml",
+            "price": "￥53",
+            "huodong": "满106减28"
+        },
+        {
+            "id": 8,
+            "imgUrl": "https://pop.nosdn.127.net/6ee2e39d-fdcc-499e-846a-982f66ed0711?imageView&thumbnail=200x200&quality=80&type=webp",
+            "title": "【包邮包税】香蒲丽植物精华SPF 50+PA++++UV防晒霜50克",
+            "price": "￥148",
+            "huodong": "包税"
+        }
+    ]
+}
