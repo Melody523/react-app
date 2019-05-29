@@ -9,7 +9,7 @@ const GetSearchList = (searchList) => ({
 
 export const SearchList = () => {
     return (dispatch) => {
-        axios.get('/api/Search/searchList.json').then((res) => {
+        axios.get('api/Search/searchList.json').then((res) => {
             const action = GetSearchList(res.data.body.result);
             dispatch(action);
         })

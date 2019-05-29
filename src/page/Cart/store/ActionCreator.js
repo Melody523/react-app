@@ -9,7 +9,7 @@ const GetCartList = (cartList) => ({
 
 export const CartList = () => {
     return (dispatch) => {
-        axios.get('/api/cart/cartList.json').then((res) => {
+        axios.get('api/cart/cartList.json').then((res) => {
             const action = GetCartList(res.data.cartShow);
             dispatch(action);
         })

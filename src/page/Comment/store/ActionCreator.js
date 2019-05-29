@@ -9,7 +9,7 @@ const GetCommentList = (commentList) => ({
 
 export const CommentList = () => {
     return (dispatch) => {
-        axios.get('/api/Info/comment.json').then((res) => {
+        axios.get('api/Info/comment.json').then((res) => {
             const action = GetCommentList(res.data.data);
             dispatch(action);
         })

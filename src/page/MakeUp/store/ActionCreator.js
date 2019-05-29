@@ -37,7 +37,7 @@ const GetLikeList = (likeTitle, heimaTitle, likeList) => ({
 
 export const ReXiaoList = () => {
     return (dispatch) => {
-        axios.get('/api/ReXiao.json').then((res) => {
+        axios.get('api/ReXiao.json').then((res) => {
             const action = GetReXiaoList(res.data.productList, res.data.titleImg, res.data.topImg);
             dispatch(action)
         })
@@ -46,7 +46,7 @@ export const ReXiaoList = () => {
 
 export const NavHeader = () => {
     return (dispatch) => {
-        axios.get('/api/ReXiaoNav.json').then((res) => {
+        axios.get('api/ReXiaoNav.json').then((res) => {
             const action = GetNavHeader(res.data.data);
             dispatch(action)
         })
@@ -55,7 +55,7 @@ export const NavHeader = () => {
 
 export const ContentList = () => {
     return (dispatch) => {
-        axios.get('/api/MakeUpType.json').then((res) => {
+        axios.get('api/MakeUpType.json').then((res) => {
             const action = GetContentList(res.data.top, res.data.dapaiTitle, res.data.dapai);
             dispatch(action)
         })
@@ -64,7 +64,7 @@ export const ContentList = () => {
 
 export const JingXuanList = () => {
     return (dispatch) => {
-        axios.get('/api/JingXuan.json').then((res) => {
+        axios.get('api/JingXuan.json').then((res) => {
             const action = GetJingXuanList(res.data.top, res.data.titleImg, res.data.product);
             dispatch(action)
         })
@@ -73,7 +73,7 @@ export const JingXuanList = () => {
 
 export const LikeList = () => {
     return (dispatch) => {
-        axios.get('/api/LikeList.json').then((res) => {
+        axios.get('api/LikeList.json').then((res) => {
             const action = GetLikeList(res.data.likeTitle, res.data.heimaTitle, res.data.likeList);
             dispatch(action)
         })
