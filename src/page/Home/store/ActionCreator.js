@@ -40,7 +40,7 @@ const GetRecommendList = (recommendList) => ({
 
 export const CarouselList = () => {
     return (dispatch) => {
-        axios.get('/api/CarouselImg.json').then((res) => {
+        axios.get('api/CarouselImg.json').then((res) => {
             const action = GetCarouselList(res.data.data);
             dispatch(action);
         })
@@ -49,7 +49,7 @@ export const CarouselList = () => {
 
 export const NavList = () => {
     return (dispatch) => {
-        axios.get('/api/NavList.json').then((res) => {
+        axios.get('api/NavList.json').then((res) => {
             const action = GetNavList(res.data.article, res.data.data);
             dispatch(action);
         })
@@ -58,7 +58,7 @@ export const NavList = () => {
 
 export const NavImg = () => {
     return (dispatch) => {
-        axios.get('/api/NavImg.json').then((res) => {
+        axios.get('api/NavImg.json').then((res) => {
             const action = GetNavImg(res.data.data);
             dispatch(action);
         })
@@ -67,7 +67,7 @@ export const NavImg = () => {
 
 export const QiangGouList = () => {
     return (dispatch) => {
-        axios.get('/api/QiangGou.json').then((res) => {
+        axios.get('api/QiangGou.json').then((res) => {
             const action = GetQiangGouList(res.data.data);
             dispatch(action);
         })
@@ -76,7 +76,7 @@ export const QiangGouList = () => {
 
 export const BrandList = () => {
     return (dispatch) => {
-        axios.get('/api/BrandList.json').then((res) => {
+        axios.get('api/BrandList.json').then((res) => {
             const action = GetBrandList(res.data.data);
             dispatch(action);
         })
@@ -85,7 +85,7 @@ export const BrandList = () => {
 
 export const BrandData = () => {
     return (dispatch) => {
-        axios.get('/api/BrandData.json').then((res) => {
+        axios.get('api/BrandData.json').then((res) => {
             const action = GetBrandData(res.data.data);
             dispatch(action);
         })
@@ -94,7 +94,7 @@ export const BrandData = () => {
 
 export const RecommendList = () => {
     return (dispatch) => {
-        axios.get('/api/RecommendList.json').then((res) => {
+        axios.get('api/RecommendList.json').then((res) => {
             const action = GetRecommendList(res.data.data);
             dispatch(action);
         })
