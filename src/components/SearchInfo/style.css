@@ -1,0 +1,155 @@
+.ant-drawer-body .list{
+    margin-bottom: 45px;
+    width: 100%;
+}
+.ant-drawer-body{
+    position: relative;
+}
+.ant-drawer-body .list .item {
+    padding: 10px;
+  }
+  .ant-drawer-body .list .item .title {
+    color: #333;
+    font-size: 15px;
+    margin: 0;
+  }
+  .ant-drawer-body .list .item .title span{
+      float: right;
+      color: #999;
+      font-size: 12px;
+  }
+  .ant-drawer-body .list .item .choose_item .price input {
+    width: 145px;
+    height: 30px;
+    border: none;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  .ant-drawer-body .list .item .choose_item .price span {
+    display: inline-block;
+    width: 24px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .ant-drawer-body .list .item .choose_item .name {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ant-drawer-body .list .item .choose_item .name .type_list span {
+    display: block;
+    width: 93px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    color: #333;
+    font-size: 12px;
+    background-color: #f5f5f5;
+    margin: 10px 10px 0 0;
+  }
+  .bottom{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 335px;
+      display: flex;
+      justify-content: space-between;
+      border-top: 0.5px solid #ddd;
+  }
+  .bottom .btn{
+      flex: 1;
+      height: 45px;
+      color: #333;
+      font-size: 16px;
+      line-height: 45px;
+      text-align: center;
+      background-color: #fff;
+  }
+  .bottom .red{
+      background-color: red;
+      color: #fff;
+      border-left: 0.5px solid #ddd;
+  }
+  .bottom .red span{
+      font-size: 12px;
+  }
+  .ant-tabs-nav-wrap .ant-tabs-nav-scroll .ant-tabs-nav-animated div {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .ant-tabs-nav-wrap .ant-tabs-nav-scroll .ant-tabs-nav div .ant-tabs-tab {
+    display: block;
+    color: #333;
+    font-size: 12px;
+    width: 80px;
+    height: 28px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 3px;
+    margin: 0px 5px;
+    border-bottom: 0.5px solid #ccc;
+  }
+  .ant-tabs-tab-active{
+    background-color: #fff;
+  }
+  .ant-tabs-bar{
+    border: none;
+  }
+  .first h4{
+    font-size: 16px;
+    color: #333;
+    padding: 7px 10px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .first div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .first span{
+    display: block;
+    font-size: 14px;
+    color: #333;
+    width: 160px;
+    margin: 7px 10px;
+    height: 23px;
+  }
+  .second, .third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .second span, .third span{
+    display: block;
+    padding: 7px 10px;
+    color: #333;
+    font-size: 14px;
+    width: 160px;
+  }
+  .bottom_btn{
+    height: 45px;
+    width: 100%;
+    border-top: 0.5px solid red;
+    border-bottom: 0.5px solid red;
+    border-left: 0.5px solid red;
+    display: flex;
+  }
+  .bottom_btn .btn{
+    color: #333;
+    font-size: 15px;
+    line-height: 45px;
+    text-align: center;
+    width: 50%;
+  }
+  .bottom_btn .red{
+    background-color: red;
+    color: #fff;
+    border-left: 0.5px solid red;
+  }
+  

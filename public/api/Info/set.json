@@ -1,0 +1,877 @@
+{
+    "data": {
+        "goodsId": 2743635,
+        "minPriceSkuId": "20040168520",
+        "skuPrice": {
+            "skuId": "20040168520",
+            "marketPrice": 2950,
+            "stringMarketPrice": null,
+            "currentPrice": 2750,
+            "stringPrice": null,
+            "suggestPrice": 2950,
+            "memberCurrentPrice": null,
+            "stringMemberCurrentPrice": null,
+            "newUserPrice": null,
+            "stringNewUserPrice": null,
+            "discountLabel": null,
+            "kaolaPrice": 2750,
+            "stringKaolaPrice": null,
+            "newUserOnlyMemberPrice": false
+        },
+        "goodsCurrentStore": 999,
+        "goodsStoreStatus": true,
+        "fencangStoreStatus": 1,
+        "preSale": false,
+        "showPreSaleLabel": false,
+        "goodsCombineInfo": null,
+        "skuDetailList": [
+            {
+                "skuInfo": {
+                    "goodsId": 2743635,
+                    "skuId": "20040168520",
+                    "marketPrice": 2950,
+                    "suggestPrice": 2950,
+                    "supplierPrice": 0.000,
+                    "declareGoodsCount": 1,
+                    "taxNo": "11021120",
+                    "productRecordNo": "",
+                    "updateStoreType": 0,
+                    "skuPropervalueIdString": "_1002430",
+                    "hidden": false,
+                    "skuPropervalueIdList": [
+                        "1002430"
+                    ],
+                    "skuPropertyList": [
+                        {
+                            "propertyNameId": "100231",
+                            "propertyName": "颜色",
+                            "imageUrl": "http://haitao.nos.netease.com/1d21oa30h11_800_800.jpg",
+                            "propertyValueId": "1002430",
+                            "propertyValue": "紫红色",
+                            "hidden": false,
+                            "note": "",
+                            "colorCardUrl": null,
+                            "subSkuPropertyValueList": [],
+                            "showOrder": 0
+                        }
+                    ]
+                },
+                "skuPrice": {
+                    "skuId": "20040168520",
+                    "marketPrice": 2950,
+                    "stringMarketPrice": null,
+                    "currentPrice": 2750,
+                    "stringPrice": null,
+                    "suggestPrice": 2950,
+                    "memberCurrentPrice": null,
+                    "stringMemberCurrentPrice": null,
+                    "newUserPrice": null,
+                    "stringNewUserPrice": null,
+                    "discountLabel": null,
+                    "kaolaPrice": 2750,
+                    "stringKaolaPrice": null,
+                    "newUserOnlyMemberPrice": false
+                },
+                "skuStore": {
+                    "skuId": "20040168520",
+                    "currentStore": 999,
+                    "lockStore": 0,
+                    "storeStatus": true,
+                    "firstWarehouseId": 46,
+                    "preSale": false,
+                    "preSaleDeliverTime": null,
+                    "fencangStoreStatus": 1
+                },
+                "skuLimitBuyInfo": {
+                    "skuId": "20040168520",
+                    "limitBuyOnce": 0,
+                    "minBuyNum": 0,
+                    "dailyLimit": 0,
+                    "dailyBuyCount": 0,
+                    "accountLimitBuyCount": 0,
+                    "accountBuyCount": 0,
+                    "isPersonalCustom": 0,
+                    "personalCustomLimitBuyCount": 0,
+                    "personalCustomInfoStr": null,
+                    "personalCustomLimitBuyMemberCount": 0
+                },
+                "goodsPresentGiftList": [],
+                "blackCardMemberInfo": {
+                    "memberAccountLimitBuyCount": 0,
+                    "memberAccountBuyCount": 0,
+                    "memberCurrentStore": 0
+                },
+                "depositSkuInfo": {
+                    "depositPrice": null,
+                    "deductionPrice": null,
+                    "totalDepositPrice": null,
+                    "stringTotalDepositPrice": null,
+                    "depositStartTime": 0,
+                    "depositEndTime": 0,
+                    "payStartTime": 0,
+                    "payEndTime": 0,
+                    "depositId": null,
+                    "accountDepositBuyCount": 0,
+                    "accountDepositLimitBuyCount": 0,
+                    "deposit": false,
+                    "depositLimitPattern": false
+                },
+                "depositSkuAdditionalInfo": null,
+                "seckillActivityInfo": null,
+                "temaiActivityInfo": null,
+                "preSaleRemindStr": null,
+                "promotionTag": [
+                    "特价",
+                    "包税"
+                ],
+                "promotionList": [
+                    {
+                        "promotionType": 3,
+                        "promotionTitle": "满额减",
+                        "promotionContent": "每满1000元减100元，最高可减400元",
+                        "presentPromotionContent": null,
+                        "promotionUrl": "https://m-search.kaola.com/activity/goods/1540260.html?goodsIds=2743635",
+                        "promotionForenoticeType": 0,
+                        "promotionNormalUserTime": null,
+                        "newUserOnly": false,
+                        "promotionStartTime": null,
+                        "showNormalForenoticeImg": false,
+                        "showMemberForenoticeImg": false
+                    },
+                    {
+                        "promotionType": 20,
+                        "promotionTitle": "包税",
+                        "promotionContent": "售价已包含税费，无需另付税费",
+                        "presentPromotionContent": null,
+                        "promotionUrl": "",
+                        "promotionForenoticeType": 0,
+                        "promotionNormalUserTime": null,
+                        "newUserOnly": false,
+                        "promotionStartTime": null,
+                        "showNormalForenoticeImg": false,
+                        "showMemberForenoticeImg": false
+                    }
+                ],
+                "promotionSaleSkuCountDownInfo": null,
+                "skuValueAddInfoDetailList": [
+                    {
+                        "serviceType": 1,
+                        "serviceTypeName": "质保无忧退",
+                        "skuValueAddInfoList": [
+                            {
+                                "skuId": "20040168520",
+                                "valueAddServiceRuleId": 2001,
+                                "valueAddServiceId": 2001,
+                                "servicePrice": 0.00,
+                                "serviceName": "一年质保无忧退",
+                                "serviceType": 1,
+                                "buyerType": 2,
+                                "dayLimit": 365,
+                                "serviceRateId": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "skuInfo": {
+                    "goodsId": 2743635,
+                    "skuId": "20040168530",
+                    "marketPrice": 2950,
+                    "suggestPrice": 2950,
+                    "supplierPrice": 0.000,
+                    "declareGoodsCount": 1,
+                    "taxNo": "11021120",
+                    "productRecordNo": "",
+                    "updateStoreType": 0,
+                    "skuPropervalueIdString": "_1002622",
+                    "hidden": false,
+                    "skuPropervalueIdList": [
+                        "1002622"
+                    ],
+                    "skuPropertyList": [
+                        {
+                            "propertyNameId": "100231",
+                            "propertyName": "颜色",
+                            "imageUrl": "http://haitao.nos.netease.com/1dbc52a3r41_800_800.jpg",
+                            "propertyValueId": "1002622",
+                            "propertyValue": "白色",
+                            "hidden": false,
+                            "note": "",
+                            "colorCardUrl": null,
+                            "subSkuPropertyValueList": [],
+                            "showOrder": 0
+                        }
+                    ]
+                },
+                "skuPrice": {
+                    "skuId": "20040168530",
+                    "marketPrice": 2950,
+                    "stringMarketPrice": null,
+                    "currentPrice": 2750,
+                    "stringPrice": null,
+                    "suggestPrice": 2950,
+                    "memberCurrentPrice": null,
+                    "stringMemberCurrentPrice": null,
+                    "newUserPrice": null,
+                    "stringNewUserPrice": null,
+                    "discountLabel": null,
+                    "kaolaPrice": 2750,
+                    "stringKaolaPrice": null,
+                    "newUserOnlyMemberPrice": false
+                },
+                "skuStore": {
+                    "skuId": "20040168530",
+                    "currentStore": 82,
+                    "lockStore": 0,
+                    "storeStatus": true,
+                    "firstWarehouseId": 46,
+                    "preSale": false,
+                    "preSaleDeliverTime": null,
+                    "fencangStoreStatus": 1
+                },
+                "skuLimitBuyInfo": {
+                    "skuId": "20040168530",
+                    "limitBuyOnce": 0,
+                    "minBuyNum": 0,
+                    "dailyLimit": 0,
+                    "dailyBuyCount": 0,
+                    "accountLimitBuyCount": 0,
+                    "accountBuyCount": 0,
+                    "isPersonalCustom": 0,
+                    "personalCustomLimitBuyCount": 0,
+                    "personalCustomInfoStr": null,
+                    "personalCustomLimitBuyMemberCount": 0
+                },
+                "goodsPresentGiftList": [],
+                "blackCardMemberInfo": {
+                    "memberAccountLimitBuyCount": 0,
+                    "memberAccountBuyCount": 0,
+                    "memberCurrentStore": 0
+                },
+                "depositSkuInfo": {
+                    "depositPrice": null,
+                    "deductionPrice": null,
+                    "totalDepositPrice": null,
+                    "stringTotalDepositPrice": null,
+                    "depositStartTime": 0,
+                    "depositEndTime": 0,
+                    "payStartTime": 0,
+                    "payEndTime": 0,
+                    "depositId": null,
+                    "accountDepositBuyCount": 0,
+                    "accountDepositLimitBuyCount": 0,
+                    "deposit": false,
+                    "depositLimitPattern": false
+                },
+                "depositSkuAdditionalInfo": null,
+                "seckillActivityInfo": null,
+                "temaiActivityInfo": null,
+                "preSaleRemindStr": null,
+                "promotionTag": [
+                    "特价",
+                    "包税"
+                ],
+                "promotionList": [
+                    {
+                        "promotionType": 3,
+                        "promotionTitle": "满额减",
+                        "promotionContent": "每满1000元减100元，最高可减400元",
+                        "presentPromotionContent": null,
+                        "promotionUrl": "https://m-search.kaola.com/activity/goods/1540260.html?goodsIds=2743635",
+                        "promotionForenoticeType": 0,
+                        "promotionNormalUserTime": null,
+                        "newUserOnly": false,
+                        "promotionStartTime": null,
+                        "showNormalForenoticeImg": false,
+                        "showMemberForenoticeImg": false
+                    },
+                    {
+                        "promotionType": 20,
+                        "promotionTitle": "包税",
+                        "promotionContent": "售价已包含税费，无需另付税费",
+                        "presentPromotionContent": null,
+                        "promotionUrl": "",
+                        "promotionForenoticeType": 0,
+                        "promotionNormalUserTime": null,
+                        "newUserOnly": false,
+                        "promotionStartTime": null,
+                        "showNormalForenoticeImg": false,
+                        "showMemberForenoticeImg": false
+                    }
+                ],
+                "promotionSaleSkuCountDownInfo": null,
+                "skuValueAddInfoDetailList": [
+                    {
+                        "serviceType": 1,
+                        "serviceTypeName": "质保无忧退",
+                        "skuValueAddInfoList": [
+                            {
+                                "skuId": "20040168530",
+                                "valueAddServiceRuleId": 2001,
+                                "valueAddServiceId": 2001,
+                                "servicePrice": 0.00,
+                                "serviceName": "一年质保无忧退",
+                                "serviceType": 1,
+                                "buyerType": 2,
+                                "dayLimit": 365,
+                                "serviceRateId": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "skuInfo": {
+                    "goodsId": 2743635,
+                    "skuId": "20046834230",
+                    "marketPrice": 3250,
+                    "suggestPrice": 3250,
+                    "supplierPrice": 0.000,
+                    "declareGoodsCount": 1,
+                    "taxNo": "11021120",
+                    "productRecordNo": "",
+                    "updateStoreType": 0,
+                    "skuPropervalueIdString": "_11407864",
+                    "hidden": false,
+                    "skuPropervalueIdList": [
+                        "11407864"
+                    ],
+                    "skuPropertyList": [
+                        {
+                            "propertyNameId": "100231",
+                            "propertyName": "颜色",
+                            "imageUrl": "http://haitao.nos.netease.com/1d4knlebr64_800_800.jpg",
+                            "propertyValueId": "11407864",
+                            "propertyValue": "紫黑色礼盒",
+                            "hidden": false,
+                            "note": "",
+                            "colorCardUrl": null,
+                            "subSkuPropertyValueList": [],
+                            "showOrder": 0
+                        }
+                    ]
+                },
+                "skuPrice": {
+                    "skuId": "20046834230",
+                    "marketPrice": 3250,
+                    "stringMarketPrice": null,
+                    "currentPrice": 2950,
+                    "stringPrice": null,
+                    "suggestPrice": 3250,
+                    "memberCurrentPrice": null,
+                    "stringMemberCurrentPrice": null,
+                    "newUserPrice": null,
+                    "stringNewUserPrice": null,
+                    "discountLabel": null,
+                    "kaolaPrice": 2950,
+                    "stringKaolaPrice": null,
+                    "newUserOnlyMemberPrice": false
+                },
+                "skuStore": {
+                    "skuId": "20046834230",
+                    "currentStore": 5,
+                    "lockStore": 0,
+                    "storeStatus": true,
+                    "firstWarehouseId": 46,
+                    "preSale": false,
+                    "preSaleDeliverTime": null,
+                    "fencangStoreStatus": 1
+                },
+                "skuLimitBuyInfo": {
+                    "skuId": "20046834230",
+                    "limitBuyOnce": 0,
+                    "minBuyNum": 0,
+                    "dailyLimit": 0,
+                    "dailyBuyCount": 0,
+                    "accountLimitBuyCount": 0,
+                    "accountBuyCount": 0,
+                    "isPersonalCustom": 0,
+                    "personalCustomLimitBuyCount": 0,
+                    "personalCustomInfoStr": null,
+                    "personalCustomLimitBuyMemberCount": 0
+                },
+                "goodsPresentGiftList": [],
+                "blackCardMemberInfo": {
+                    "memberAccountLimitBuyCount": 0,
+                    "memberAccountBuyCount": 0,
+                    "memberCurrentStore": 0
+                },
+                "depositSkuInfo": {
+                    "depositPrice": null,
+                    "deductionPrice": null,
+                    "totalDepositPrice": null,
+                    "stringTotalDepositPrice": null,
+                    "depositStartTime": 0,
+                    "depositEndTime": 0,
+                    "payStartTime": 0,
+                    "payEndTime": 0,
+                    "depositId": null,
+                    "accountDepositBuyCount": 0,
+                    "accountDepositLimitBuyCount": 0,
+                    "deposit": false,
+                    "depositLimitPattern": false
+                },
+                "depositSkuAdditionalInfo": null,
+                "seckillActivityInfo": null,
+                "temaiActivityInfo": null,
+                "preSaleRemindStr": null,
+                "promotionTag": [
+                    "特价",
+                    "包税"
+                ],
+                "promotionList": [
+                    {
+                        "promotionType": 3,
+                        "promotionTitle": "满额减",
+                        "promotionContent": "每满1000元减100元，最高可减400元",
+                        "presentPromotionContent": null,
+                        "promotionUrl": "https://m-search.kaola.com/activity/goods/1540260.html?goodsIds=2743635",
+                        "promotionForenoticeType": 0,
+                        "promotionNormalUserTime": null,
+                        "newUserOnly": false,
+                        "promotionStartTime": null,
+                        "showNormalForenoticeImg": false,
+                        "showMemberForenoticeImg": false
+                    },
+                    {
+                        "promotionType": 20,
+                        "promotionTitle": "包税",
+                        "promotionContent": "售价已包含税费，无需另付税费",
+                        "presentPromotionContent": null,
+                        "promotionUrl": "",
+                        "promotionForenoticeType": 0,
+                        "promotionNormalUserTime": null,
+                        "newUserOnly": false,
+                        "promotionStartTime": null,
+                        "showNormalForenoticeImg": false,
+                        "showMemberForenoticeImg": false
+                    }
+                ],
+                "promotionSaleSkuCountDownInfo": null,
+                "skuValueAddInfoDetailList": [
+                    {
+                        "serviceType": 1,
+                        "serviceTypeName": "质保无忧退",
+                        "skuValueAddInfoList": [
+                            {
+                                "skuId": "20046834230",
+                                "valueAddServiceRuleId": 2001,
+                                "valueAddServiceId": 2001,
+                                "servicePrice": 0.00,
+                                "serviceName": "一年质保无忧退",
+                                "serviceType": 1,
+                                "buyerType": 2,
+                                "dayLimit": 365,
+                                "serviceRateId": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "skuInfo": {
+                    "goodsId": 2743635,
+                    "skuId": "20040168540",
+                    "marketPrice": 2950,
+                    "suggestPrice": 2950,
+                    "supplierPrice": 0.000,
+                    "declareGoodsCount": 1,
+                    "taxNo": "11021120",
+                    "productRecordNo": "",
+                    "updateStoreType": 0,
+                    "skuPropervalueIdString": "_1003159",
+                    "hidden": false,
+                    "skuPropervalueIdList": [
+                        "1003159"
+                    ],
+                    "skuPropertyList": [
+                        {
+                            "propertyNameId": "100231",
+                            "propertyName": "颜色",
+                            "imageUrl": "http://haitao.nos.netease.com/1d8gb21so96_800_800.jpg",
+                            "propertyValueId": "1003159",
+                            "propertyValue": "紫色",
+                            "hidden": false,
+                            "note": "",
+                            "colorCardUrl": null,
+                            "subSkuPropertyValueList": [],
+                            "showOrder": 0
+                        }
+                    ]
+                },
+                "skuPrice": {
+                    "skuId": "20040168540",
+                    "marketPrice": 2950,
+                    "stringMarketPrice": null,
+                    "currentPrice": 2850,
+                    "stringPrice": null,
+                    "suggestPrice": 2950,
+                    "memberCurrentPrice": null,
+                    "stringMemberCurrentPrice": null,
+                    "newUserPrice": null,
+                    "stringNewUserPrice": null,
+                    "discountLabel": null,
+                    "kaolaPrice": 2850,
+                    "stringKaolaPrice": null,
+                    "newUserOnlyMemberPrice": false
+                },
+                "skuStore": {
+                    "skuId": "20040168540",
+                    "currentStore": 67,
+                    "lockStore": 0,
+                    "storeStatus": true,
+                    "firstWarehouseId": 46,
+                    "preSale": false,
+                    "preSaleDeliverTime": null,
+                    "fencangStoreStatus": 1
+                },
+                "skuLimitBuyInfo": {
+                    "skuId": "20040168540",
+                    "limitBuyOnce": 0,
+                    "minBuyNum": 0,
+                    "dailyLimit": 0,
+                    "dailyBuyCount": 0,
+                    "accountLimitBuyCount": 0,
+                    "accountBuyCount": 0,
+                    "isPersonalCustom": 0,
+                    "personalCustomLimitBuyCount": 0,
+                    "personalCustomInfoStr": null,
+                    "personalCustomLimitBuyMemberCount": 0
+                },
+                "goodsPresentGiftList": [],
+                "blackCardMemberInfo": {
+                    "memberAccountLimitBuyCount": 0,
+                    "memberAccountBuyCount": 0,
+                    "memberCurrentStore": 0
+                },
+                "depositSkuInfo": {
+                    "depositPrice": null,
+                    "deductionPrice": null,
+                    "totalDepositPrice": null,
+                    "stringTotalDepositPrice": null,
+                    "depositStartTime": 0,
+                    "depositEndTime": 0,
+                    "payStartTime": 0,
+                    "payEndTime": 0,
+                    "depositId": null,
+                    "accountDepositBuyCount": 0,
+                    "accountDepositLimitBuyCount": 0,
+                    "deposit": false,
+                    "depositLimitPattern": false
+                },
+                "depositSkuAdditionalInfo": null,
+                "seckillActivityInfo": null,
+                "temaiActivityInfo": null,
+                "preSaleRemindStr": null,
+                "promotionTag": [
+                    "特价",
+                    "包税"
+                ],
+                "promotionList": [
+                    {
+                        "promotionType": 3,
+                        "promotionTitle": "满额减",
+                        "promotionContent": "每满1000元减100元，最高可减400元",
+                        "presentPromotionContent": null,
+                        "promotionUrl": "https://m-search.kaola.com/activity/goods/1540260.html?goodsIds=2743635",
+                        "promotionForenoticeType": 0,
+                        "promotionNormalUserTime": null,
+                        "newUserOnly": false,
+                        "promotionStartTime": null,
+                        "showNormalForenoticeImg": false,
+                        "showMemberForenoticeImg": false
+                    },
+                    {
+                        "promotionType": 20,
+                        "promotionTitle": "包税",
+                        "promotionContent": "售价已包含税费，无需另付税费",
+                        "presentPromotionContent": null,
+                        "promotionUrl": "",
+                        "promotionForenoticeType": 0,
+                        "promotionNormalUserTime": null,
+                        "newUserOnly": false,
+                        "promotionStartTime": null,
+                        "showNormalForenoticeImg": false,
+                        "showMemberForenoticeImg": false
+                    }
+                ],
+                "promotionSaleSkuCountDownInfo": null,
+                "skuValueAddInfoDetailList": [
+                    {
+                        "serviceType": 1,
+                        "serviceTypeName": "质保无忧退",
+                        "skuValueAddInfoList": [
+                            {
+                                "skuId": "20040168540",
+                                "valueAddServiceRuleId": 2001,
+                                "valueAddServiceId": 2001,
+                                "servicePrice": 0.00,
+                                "serviceName": "一年质保无忧退",
+                                "serviceType": 1,
+                                "buyerType": 2,
+                                "dayLimit": 365,
+                                "serviceRateId": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "goodsPresentGiftList": [],
+        "goodsDeclare": {
+            "title": [
+                "包税",
+                "假一赔十",
+                "不支持7天无理由退货",
+                "不可使用优惠券",
+                "自营保税仓发货",
+                "会员96折"
+            ],
+            "contentList": [
+                {
+                    "detailTitle": "会员96折",
+                    "detailContentList": [
+                        " 成为考拉会员，此商品可享受额外96折"
+                    ],
+                    "type": 1
+                },
+                {
+                    "detailTitle": "包税",
+                    "detailContentList": [
+                        "商品售价已包含税费，无需另付税费"
+                    ],
+                    "type": 0
+                },
+                {
+                    "detailTitle": "假一赔十",
+                    "detailContentList": [
+                        "网易考拉每一件商品都通过严苛的品质把关，保障正品，保障品质。特推出“假一赔十”的正品保障政策，杜绝一切假货，让您无忧购物。"
+                    ],
+                    "type": 0
+                },
+                {
+                    "detailTitle": "不支持7天无理由退货",
+                    "detailContentList": [
+                        "本商品不支持7天无理由退货"
+                    ],
+                    "type": 0
+                },
+                {
+                    "detailTitle": "不可使用优惠券",
+                    "detailContentList": [
+                        "本商品不支持使用优惠券，运费券、税费券除外"
+                    ],
+                    "type": 0
+                },
+                {
+                    "detailTitle": "自营保税仓发货",
+                    "detailContentList": [
+                        "本商品由自营保税仓发货。"
+                    ],
+                    "type": 0
+                }
+            ]
+        },
+        "multipackGoodsList": null,
+        "normalCouponDesc": null,
+        "normalCouponLink": null,
+        "shareCouponDesc": null,
+        "shareCouponLink": null,
+        "goodsCouponList": null,
+        "promotionSaleInfo": null,
+        "promotionSaleCountDownInfo": null,
+        "showTimingSale": false,
+        "timingSaleTime": null,
+        "nowDate": 1558695265603,
+        "newerExclusiveActivityGoods": false,
+        "depositGoodsInfo": {
+            "totalDepositLimitBuyCount": 0,
+            "totalDepositBuyCount": 0,
+            "depositPrice": null,
+            "deductionPrice": null,
+            "totalDepositPrice": null,
+            "stringTotalDepositPrice": null,
+            "depositStartTime": 0,
+            "depositEndTime": 0,
+            "payStartTime": 0,
+            "payEndTime": 0,
+            "depositPayDesc": null,
+            "deposit": false,
+            "depositLimitPattern": false
+        },
+        "depositGoodsAdditionalInfo": null,
+        "warehouseCityShow": "",
+        "userFavoriteGoods": false,
+        "vipUser": false,
+        "frontVipInfo": {
+            "vipType": null,
+            "vipGoodsDiscountInfo": {
+                "vipGoodsSaveMoney": "，预计省110元",
+                "saveMoneyAmount": 110,
+                "discountContent": "会员下单再享96折",
+                "discountLabelImg": "https://haitao.nos.netease.com/79fd6f67-c02a-4783-b6bb-466e6403559b.png",
+                "memberPriceLabelImg": null,
+                "memberPriceEquityContent": null,
+                "proToBlackUrl": null,
+                "openBlackUrl": "https://m-vip.kaola.com/app/buy",
+                "showProWindow": false,
+                "discount": 96
+            },
+            "vipRedStationingInfo": {
+                "openBlackUrl": "https://m-vip.kaola.com/app/buy",
+                "proToBlackUrl": "https://m-vip.kaola.com/app/red/rights",
+                "redToBlackUrl": "https://m-vip.kaola.com/app/red/rights",
+                "standardBlackPrice": 279.00,
+                "redOpenBlackPrice": 279,
+                "proToBlackThresholdAmount": 30,
+                "proToBlackThresholdScale": 0.4,
+                "blackSaveMoneyThreshold": 10
+            },
+            "vipRedInfo": null,
+            "vipSpanImageInfo": {
+                "blackSpan": "https://haitao.nos.netease.com/8d128e28-f980-4b42-9d44-44cb09c3485d.png",
+                "blackPriceSpan": "https://haitao.nos.netease.com/59eaca3a-967f-4765-a23c-2e6119c847bb.png",
+                "realBlackPriceSpan": "https://haitao.nos.netease.com/96290f5e-274f-43a4-bf07-6bd877f886c5_150_45.png",
+                "blackDiscountSpan": "https://haitao.nos.netease.com/79fd6f67-c02a-4783-b6bb-466e6403559b.png",
+                "blackSupSaveSpan": "https://haitao.nos.netease.com/6dc03e40-5452-4a3e-a039-1ae8badbce2e_120_45.png?klsize=120x45",
+                "redSpan": "https://haitao.nos.netease.com/33968c09-6cbd-400b-abd3-b53c1b98ffd4.png",
+                "redDiscountSpan": "https://haitao.nos.netease.com/1d302d17-ce2d-4b23-ae17-8f50078e8a6f.png",
+                "blackProSpan": "https://haitao.nos.netease.com/be16c9c6-aed6-47a1-8fb8-cc08cd195acb.png",
+                "blackSaleSpan": "https://haitao.nos.netease.com/29cf7d34-a3f8-4bea-a956-dd03b31a013a_150_45.gif",
+                "blackSupSaleSpan": "https://haitao.nos.netease.com/6dc03e40-5452-4a3e-a039-1ae8badbce2e_120_45.png?klsize=120x45",
+                "black9Span": "https://haitao.nos.netease.com/e0d4ee64-07d1-4402-993b-c7eeaeb6ce8d_108_45.png",
+                "red9Span": "https://haitao.nos.netease.com/267badbb-047f-4b99-939c-ffb3beafd158_108_45.png"
+            },
+            "newUserMemberPriceImg": null,
+            "newUserMemberPriceDesc": null
+        },
+        "vipLayoutInfo": {
+            "expectSaveMoney": 110.00,
+            "openCardType": 1,
+            "iconImg": "https://haitao.nos.netease.com/6dc03e40-5452-4a3e-a039-1ae8badbce2e_120_45.png?klsize=120x45",
+            "mainText": "黑卡会员预计可<font color=\"#FF0000\">省¥110</font>",
+            "subText": "含会员96折",
+            "redeemCode": null,
+            "openCardText": "立即开卡",
+            "openCardUrl": "https://m-vip.kaola.com/app?cardType=0",
+            "pointIcon": true,
+            "saveViewTitle": "会员省钱明细",
+            "saveDetailInfo": [
+                {
+                    "saveName": "会员96折",
+                    "saveValue": "省<font color=\"#FF0000\">110</font>元",
+                    "saveMoney": 110.00,
+                    "saveType": 3
+                }
+            ],
+            "saveExplain": "提示：可能会因为参加了其他优惠活动，导致会员省钱数变低，具体以下单时为准",
+            "saveExpressInfoList": null,
+            "bubbleInfo": {
+                "bubbleText": "黑卡下单 预计共减<font color=\"#FF0000\">110</font>元起",
+                "bubbleOpenCardText": "立即开卡",
+                "bubbleOpenCardUrl": "https://m-vip.kaola.com/app?cardType=0"
+            },
+            "scmInfo": "v1.1018.1066_cs_7._._",
+            "pcOpenCardAlertView": {
+                "pcOpenCardAlertTitle": "开通黑卡",
+                "pcOpenCardAlertContent": "开通黑卡会员，尊享黑卡16大权益，此单立省110元",
+                "pcOpenCardAlertDesc": "扫一扫，开通黑卡"
+            }
+        },
+        "seckillActivityInfo": null,
+        "temaiActivityInfo": null,
+        "promotionTag": [
+            "特价",
+            "包税"
+        ],
+        "promotionList": [
+            {
+                "promotionType": 3,
+                "promotionTitle": "满额减",
+                "promotionContent": "每满1000元减100元，最高可减400元",
+                "presentPromotionContent": null,
+                "promotionUrl": "https://m-search.kaola.com/activity/goods/1540260.html?goodsIds=2743635",
+                "promotionForenoticeType": 0,
+                "promotionNormalUserTime": null,
+                "newUserOnly": false,
+                "promotionStartTime": null,
+                "showNormalForenoticeImg": false,
+                "showMemberForenoticeImg": false
+            },
+            {
+                "promotionType": 20,
+                "promotionTitle": "包税",
+                "promotionContent": "售价已包含税费，无需另付税费",
+                "presentPromotionContent": null,
+                "promotionUrl": "",
+                "promotionForenoticeType": 0,
+                "promotionNormalUserTime": null,
+                "newUserOnly": false,
+                "promotionStartTime": null,
+                "showNormalForenoticeImg": false,
+                "showMemberForenoticeImg": false
+            }
+        ],
+        "appNewcomerOnly": false,
+        "appNewcomerShareCode": "KNEsu4QqQK",
+        "goodsDeliverInfo": {
+            "tomorrowArrivalStatus": "3",
+            "divisionTimeStr": "24:00",
+            "arrivalTimeStr": "5月27日(周一)",
+            "deliverTimeStr": "",
+            "promotionDeliverTitle": "",
+            "promotionDeliverStr": "",
+            "overSeaTimelinessStr": ""
+        },
+        "goodsPostageInfo": {
+            "canDeliver": true,
+            "postageShowStr": "满88元免运费",
+            "postageDetail": "自营订单满88元包邮，不足金额的订单收取10元运费，以商品活动后的总金额为准，不含税费，使用虚拟资产(优惠券、红包、考拉豆等)不影响包邮的计算，特殊商品、自营店铺及入驻商家商品单独计算运费。",
+            "highPostageReason": null,
+            "postageImageList": null,
+            "postageTraceItemList": null
+        },
+        "skuValueAddInfoDetailList": [
+            {
+                "serviceType": 1,
+                "serviceTypeName": "质保无忧退",
+                "skuValueAddInfoList": [
+                    {
+                        "skuId": "20040168520",
+                        "valueAddServiceRuleId": 2001,
+                        "valueAddServiceId": 2001,
+                        "servicePrice": 0.00,
+                        "serviceName": "一年质保无忧退",
+                        "serviceType": 1,
+                        "buyerType": 2,
+                        "dayLimit": 365,
+                        "serviceRateId": 1
+                    }
+                ]
+            }
+        ],
+        "promotionForenoticeAreaImg": null,
+        "promotionExclusiveAreaImg": null,
+        "goodsNotice": null,
+        "newUser": true,
+        "depositRelatedInfo": {
+            "relatedDepositGoodsId": 5118951,
+            "finalPrice": 2499,
+            "hintInfo": "税费另计",
+            "skuDepositRelatedInfoList": null
+        },
+        "goodsYearOverLimitString": null,
+        "coopMemberInfo": null,
+        "similarGoodsList": [],
+        "promotionNotice": null,
+        "promotionBanner": {
+            "goodsDetailBannerImgUrl": "",
+            "goodsDetailBannerLink": ""
+        },
+        "bannerImgList": null,
+        "keyPropertyList": null
+    },
+    "code": 200,
+    "message": null
+}

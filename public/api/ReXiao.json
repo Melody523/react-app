@@ -1,0 +1,87 @@
+{
+    "success": true,
+    "topImg": "https://haitao.nosdn2.127.net/c0a9fe26-2ec7-4076-8cf9-64f3f5b09af0T1905202051_960_200.jpg?imageView&thumbnail=750x156&quality=80&type=webp",
+    "titleImg": "https://haitao.nosdn2.127.net/b1d74e15-7185-4b2c-8286-e95e72cd6f42T1905061516_960_118.gif",
+    "productList": [
+        {
+            "id": 1,
+            "imgUrl": "https://haitao.nosdn1.127.net/9eb662b268784e81a9890cfd71d0dcc21555915076872jurznwti11273.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "【6盒装】Dr.Jart+蒂佳婷 补水清洁6件套",
+            "new_price": "￥329",
+            "old_price": "￥419",
+            "pty":"限量1000件"
+        },
+        {
+            "id": 2,
+            "imgUrl": "https://haitao.nosdn1.127.net/85c1ee1e7c634323a13b59b6513e73261509711387354j9jv6hsw11788.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "BIODERMA 贝德玛 舒妍多效洁肤液 按压式 粉水 500毫升 2瓶装",
+            "new_price": "￥198",
+            "old_price": "￥475",
+            "pty":"限量500件"
+        },
+        {
+            "id": 3,
+            "imgUrl": "https://haitao.nosdn2.127.net/1fdc7011647a44d18f1118f5ae9098861537544701032jmc6f04610339.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "AGE20`s 爱纪二十之 爱敬 精华遮瑕粉底 正装12.5克+替换装12.5克",
+            "new_price": "￥158",
+            "old_price": "￥288",
+            "pty":"限量30000件"
+        },
+        {
+            "id": 4,
+            "imgUrl": "https://haitao.nosdn1.127.net/3b3ff13703964675bfce3323329557fb1537858585031jmhdamk510825.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "2瓶装 |【李佳琦推荐】Swisse 麦卢卡蜂蜜面膜70克 清洁去角质 舒缓保湿紧",
+            "new_price": "￥149",
+            "old_price": "￥270",
+            "pty":"限量500件"
+        },
+        {
+            "id": 5,
+            "imgUrl": "https://haitao.nos.netease.com/a3148995e4dc4c2ea7d94eb0a0411c231558522347708jvz3yrpm10162.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "【爆款新包装】LANEIGE 兰芝 多效洁颜膏蓝色新款 油皮亲妈 150毫升",
+            "new_price": "￥95",
+            "old_price": "￥198",
+            "pty":"限量1000件"
+        },
+        {
+            "id": 6,
+            "imgUrl": "https://haitao.nos.netease.com/81f4a15617f64e0dbc8651eb271d4a471557219647390jvdkddvb10258.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "Whoo 后 真该润草本防晒霜 SPF50+ PA+++ 60毫升",
+            "new_price": "￥179",
+            "old_price": "￥450",
+            "pty":"限量1000件"
+        },
+        {
+            "id": 7,
+            "imgUrl": "https://haitao.nosdn2.127.net/j1w2ajj710_800_800.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "【第2代 浓密款】KISS ME 奇士美 花漾美姬新翘力浓密防水睫毛膏 6克",
+            "new_price": "￥55",
+            "old_price": "￥109",
+            "pty":"限量800件"
+        },
+        {
+            "id": 8,
+            "imgUrl": "https://haitao.nos.netease.com/1bnke2u7089_800_800.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "【当家爆款 温和氨基酸】Freeplus 芙丽芳丝 净润洗面霜 100g*2",
+            "new_price": "￥195",
+            "old_price": "￥255",
+            "pty":"限量800件"
+        },
+        {
+            "id": 9,
+            "imgUrl": "https://haitao.nosdn1.127.net/a30c04830c73449f9ec55ab23719b2731541679354121jo8k2yus11705.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "Dermaroller 玻尿酸精华原液安瓶 1.5毫升/瓶*30瓶装 德国D家 提亮肤色 补水保湿",
+            "new_price": "￥538",
+            "old_price": "￥790",
+            "pty":"限量1000件"
+        },
+        {
+            "id": 10,
+            "imgUrl": "https://haitao.nos.netease.com/96154129e85b45c1a282331d9ce6fdd21510237705768j9skjbpm16888.jpg?imageView&thumbnail=250x0&quality=80&type=webp",
+            "title": "ESTĒE LAUDER 雅诗兰黛 红石榴鲜活亮采面霜 15毫升/瓶 3瓶装",
+            "new_price": "￥378",
+            "old_price": "￥530",
+            "pty":"限量1000件"
+        }
+    ]
+}

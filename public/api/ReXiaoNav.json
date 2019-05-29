@@ -1,0 +1,35 @@
+{
+    "success": true,
+    "data":[
+        {
+            "id": 1,
+            "title": "必逛会场",
+            "imgUrl": "https://haitao.nos.netease.com/c5897d5e-90e7-47cc-9855-9e371774b272-1516244073622_75_75.png",
+            "href": "#nav-first"
+        },
+        {
+            "id": 2,
+            "title": "大牌放价",
+            "imgUrl": "https://haitao.nos.netease.com/e87bdcf8-31ff-415b-bb67-c221aae77204-1516244073174_75_75.png",
+            "href": "#nav-second"
+        },
+        {
+            "id": 3,
+            "title": "精选活动",
+            "imgUrl": "https://haitao.nos.netease.com/bcfaf4b7-b505-4c4f-b3a0-e37a8950fcf9-1516244073600_75_75.png",
+            "href": "#nav-third"
+        },
+        {
+            "id": 4,
+            "title": "猜您喜欢",
+            "imgUrl": "https://haitao.nos.netease.com/a5d88bd5-107b-4fa6-895b-b442051f8ea9-1516244073616_75_75.png",
+            "href": "#nav-forth"
+        },
+        {
+            "id": 5,
+            "title": "黑马新品",
+            "imgUrl": "https://haitao.nos.netease.com/13fb5041-ed95-4ac5-8a36-0cb7132afb7a-1516244073618_75_75.png",
+            "href": "#nav-fifth"
+        }
+    ]
+}

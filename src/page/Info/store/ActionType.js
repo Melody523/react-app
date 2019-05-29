@@ -1,0 +1,15 @@
+export const CHANGE_INDEX = 'info/CHANGE_INDEX';
+export const INFO_CAROUSEL = 'info/INFO_CAROUSEL';
+export const CAROUSEL_INDEX = 'info/CAROUSEL_INDEX';
+export const CAROUSEL_CHANGE = 'info/CAROUSEL_CHANGE';
+export const GET_PRODUCT = 'info/GET_PRODUCT';
+export const ACTION_LIST = 'info/ACTION_LIST';
+export const PRODUCT_COLOR = 'info/PRODUCT_COLOR';
+export const SHUOMING_INFO = 'info/SHUOMING_INFO';
+export const COMMENT_LIST = 'info/COMMENT_LIST';
+export const BRAND_RECOMMEND = 'info/BRAND_RECOMMEND';
+export const PRODUCT_RECOMMEND = 'info/PRODUCT_RECOMMEND';
+export const PRODUCT_MESSAGE = 'info/PRODUCT_MESSAGE';
+export const IMAGE_LIST = 'info/IMAGE_LIST';
+export const ARTICLE_LIST = 'info/ARTICLE_LIST';
+export const SHOU_HOU = 'info/SHOU_HOU';

@@ -1,0 +1,1 @@
+export const COMMENT_LIST = 'comment/COMMENT_LIST';

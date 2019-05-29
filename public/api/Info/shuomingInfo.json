@@ -1,0 +1,35 @@
+{
+    "success": true,
+    "contentList": [
+        {
+            "detailTitle": "会员96折",
+            "detailContentList": " 成为考拉会员，此商品可享受额外96折",
+            "type": 1
+        },
+        {
+            "detailTitle": "包税",
+            "detailContentList": "商品售价已包含税费，无需另付税费",
+            "type": 0
+        },
+        {
+            "detailTitle": "假一赔十",
+            "detailContentList": "网易考拉每一件商品都通过严苛的品质把关，保障正品，保障品质。特推出“假一赔十”的正品保障政策，杜绝一切假货，让您无忧购物。",
+            "type": 0
+        },
+        {
+            "detailTitle": "不支持7天无理由退货",
+            "detailContentList": "本商品不支持7天无理由退货",
+            "type": 0
+        },
+        {
+            "detailTitle": "不可使用优惠券",
+            "detailContentList": "本商品不支持使用优惠券，运费券、税费券除外",
+            "type": 0
+        },
+        {
+            "detailTitle": "自营保税仓发货",
+            "detailContentList": "本商品由自营保税仓发货。",
+            "type": 0
+        }
+    ]
+}

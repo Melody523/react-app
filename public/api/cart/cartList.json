@@ -1,0 +1,205 @@
+{
+    "retdesc": "操作成功",
+    "cartShow": {
+        "activityDiscountAmount": 200,
+        "activityDiscountAmountHide": "200",
+        "allCount": 1,
+        "allGoodsIdList": [
+            2743635
+        ],
+        "appendFlag": 2,
+        "cartRegionList": [
+            {
+                "activityDiscountAmount": 200,
+                "activityDiscountAmountHide": "200",
+                "activityReduceTaxAmount": 0.00,
+                "cartActivityGoodsList": [
+                    {
+                        "activityAmount": 2520.00,
+                        "activityButtonDescForWap": "再逛逛",
+                        "activityDiscountAmount": 200,
+                        "activityReduceTaxAmount": 0,
+                        "activitySchemeId": 1542544,
+                        "activityShowUrl": "https://search.kaola.com/activity/goods/1542544.html?goodsIds=2743635",
+                        "activityShowUrlApp": "https://m-search.kaola.com/activity/goods/1542544.html?goodsIds=2743635",
+                        "activityShowUrlMinApp": "https://m-search.kaola.com/activity/goods/1542544.html?goodsIds=2743635",
+                        "activityShowUrlWap": "https://m-search.kaola.com/activity/goods/1542544.html?goodsIds=2743635",
+                        "activityType": 3,
+                        "activityTypeStr": "满额减",
+                        "cartGoodsList": [
+                            {
+                                "activityGiftList": [],
+                                "activitySchemeId": 1542544,
+                                "cartGoodsType": 0,
+                                "cartId": "4905264439",
+                                "comboId": " ",
+                                "currentPrice": 2720.00,
+                                "currentPriceHide": "2720",
+                                "currentPriceType": 1,
+                                "danpinPromotionTitle": "包税|限时购",
+                                "errMsg": "",
+                                "errType": 0,
+                                "goodsId": 2743635,
+                                "goodsLabelList": [
+                                    {
+                                        "goodsLabel": "限时购 ",
+                                        "goodsLabelHover": "立省<b>230</b>元",
+                                        "type": 0
+                                    },
+                                    {
+                                        "goodsLabel": "包税",
+                                        "goodsLabelHover": "商品售价已包含税费，无需另付税费",
+                                        "type": 0
+                                    }
+                                ],
+                                "goodsName": "【质保无忧】dyson 戴森 Supersonic 电吹风机HD01",
+                                "goodsTypeStr": "",
+                                "imageUrl": "http://haitao.nos.netease.com/1dbc52a3r41_800_800.jpg",
+                                "importType": 1,
+                                "innerSource": "DETAIL",
+                                "isHiddenPrice": 0,
+                                "isHuanGou": 0,
+                                "limitMsg": "",
+                                "limitType": 0,
+                                "marketPrice": 2950.00,
+                                "marketPriceHide": "2950",
+                                "maxSelectedStore": 46,
+                                "minSelectedStore": 1,
+                                "optionalValueAddList": [
+                                    {
+                                        "count": 1,
+                                        "isFree": true,
+                                        "name": "一年质保无忧退",
+                                        "price": 0.00,
+                                        "selected": true,
+                                        "serviceId": 2001,
+                                        "type": 1
+                                    }
+                                ],
+                                "productType": 1000,
+                                "ratio": 0,
+                                "selected": 1,
+                                "showModifyPrice": false,
+                                "skuDesc": "颜色:白色 ",
+                                "skuId": "20040168530",
+                                "skuPropertyList": [
+                                    {
+                                        "name": "颜色",
+                                        "value": "白色"
+                                    }
+                                ],
+                                "sysBuyCount": 1,
+                                "taxAmount": 0.00,
+                                "taxAmountHide": "0",
+                                "taxDesc": "9.1%",
+                                "taxRate": 0.0910000000,
+                                "taxRateStr": "适用税率 : 9.1%",
+                                "tempBuyAmount": 1,
+                                "tempCurrentPrice": 2720.00,
+                                "tempGoodsActivityType": "包税-售价已包含税费，无需另付税费;满额减-每满1000元减100元，最高可减400元;限时购-今日特卖，限时购买省230元",
+                                "totalAmount": 2720.00,
+                                "totalAmountHide": "2720",
+                                "userAlreadyBuyCount": 0,
+                                "userBuyCount": 1,
+                                "userLimitBuyCount": 0
+                            }
+                        ],
+                        "currentAmount": 2720.00,
+                        "currentRule": {
+                            "activityGiftList": [
+                                {
+                                    "activityGiftId": 0,
+                                    "actualCurrentPriceHide": "0",
+                                    "errType": 0,
+                                    "freeNumber": 0,
+                                    "giftGoodsId": 0,
+                                    "giftType": 3,
+                                    "moneyHide": "200",
+                                    "realBuyCount": 0,
+                                    "skuPropertyStr": ""
+                                }
+                            ],
+                            "activityRuleId": 6501490,
+                            "activitySchemeId": 1542544,
+                            "isSatisfied": 0,
+                            "isTakeAllGift": false,
+                            "ruleType": 2,
+                            "threshold": 2000
+                        },
+                        "currentRuleStr": "已满足【满2000元减200元】",
+                        "currentRuleStrForApp": "已满足【满2000元减200元】",
+                        "currentRuleStrForWap": "已购满2000元，已减200元",
+                        "huanGouGiftGoods": [],
+                        "huanGouUrlMinApp": "https://search.kaola.com/activity/goods/1542544.html?showGiftModal",
+                        "isHuanGou": 0,
+                        "manZengGiftGoodsList": [],
+                        "nextRule": {
+                            "activityGiftList": [
+                                {
+                                    "activityGiftId": 0,
+                                    "actualCurrentPriceHide": "0",
+                                    "errType": 0,
+                                    "freeNumber": 0,
+                                    "giftGoodsId": 0,
+                                    "giftType": 3,
+                                    "moneyHide": "300",
+                                    "realBuyCount": 0,
+                                    "skuPropertyStr": ""
+                                }
+                            ],
+                            "activityRuleId": 6501493,
+                            "activitySchemeId": 1542544,
+                            "isSatisfied": 0,
+                            "isTakeAllGift": false,
+                            "ruleType": 2,
+                            "threshold": 3000
+                        },
+                        "nextRuleStr": "再购<b>280</b>元立享【满3000元减300元】",
+                        "nextRuleStrForApp": "再购280元立享【满3000元减300元】",
+                        "nextRuleStrForWap": "再购280元立享【满3000元减300元】",
+                        "totalAmount": 2720.00
+                    }
+                ],
+                "cartItemList": [],
+                "cartRegionId": "543_1_1_0",
+                "errType": 0,
+                "goodsSource": "自营保税仓",
+                "importType": 1,
+                "invalidCartItemList": [],
+                "isSupplierSelf": true,
+                "isSupplierSelfPop": false,
+                "isSupplierUnselfPop": false,
+                "orderPayAmount": 2520.00,
+                "orderPayAmountHide": "2520",
+                "payAmountLimit": 2147483647,
+                "payAmountLimitInfo": "",
+                "payAmountLimitInfoApp": "",
+                "realPayAmount": 2520.00,
+                "regionType": 0,
+                "selectedCount": 1,
+                "selfGoodsWarehouse": true,
+                "supplierId": 543,
+                "taxDetailType": 2,
+                "taxLabel": "",
+                "totalAmount": 2720.00,
+                "totalTaxAmount": 0.00,
+                "totalTaxShowAmount": 0.00,
+                "totalTaxShowAmountHide": "0",
+                "warehouseIcon": "http://haitao.nosdn3.127.net/1551943683359标签_1@2x.png?klsize=64*30"
+            }
+        ],
+        "errType": 0,
+        "invalidCartItemList": [],
+        "isOverCustomsLimit": 0,
+        "orderPayAmount": 2520.00,
+        "orderPayAmountHide": "2520",
+        "realPayAmount": 2520.00,
+        "realPayAmountHide": "2520",
+        "selectedCount": 1,
+        "totalAmount": 2720.00,
+        "totalTaxAmount": 0.00,
+        "totalTaxAmountHide": "0",
+        "wapSelfPostageShow": "自营商品已包邮"
+    },
+    "retcode": 200
+}
