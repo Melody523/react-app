@@ -1,0 +1,23 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "body": {
+        "goodsId": 2743635,
+        "videos": [
+            {
+                "desc": "戴森吹风机——\n集中气流设计让吹发更快，内置温度计防烫很温柔，马达转速非凡所以更安静，颜值简直逆天！别说你还不想带它回家哦～",
+                "coverUrl": "http://voddafz06jj.nosdn.127.net/d7896127-890b-4a16-96ef-84d412c6f908_1_0_0.jpg?klsize\u003d640x368",
+                "updateTime": 1548429605694,
+                "width": 640,
+                "scmInfo": "v1.1010.1010_tz_11848641._._",
+                "dynamicImgUrl": "http://voddafz06jj.vod.126.net/voddafz06jj/videoPreview_2278342552_2lZoFsnx.webp?klsize\u003d320x184",
+                "id": 2278342552,
+                "originalUrl": "http://voddafz06jj.vod.126.net/voddafz06jj/d7896127-890b-4a16-96ef-84d412c6f908.MP4",
+                "title": "青春有你-姚弛同款好物推荐",
+                "height": 368,
+                "durationSeconds": 5,
+                "discussionId": 11848641
+            }
+        ]
+    }
+}

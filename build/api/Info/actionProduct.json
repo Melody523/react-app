@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": {
+        "title": "颜色",
+        "youhui": ["特价", "包税"],
+        "color": ["紫红色", "白色", "紫色", "紫黑色"],
+        "img": [
+            "https://haitao.nos.netease.com/iw7htfzh70_800_800.jpg?imageView&thumbnail=150x0&quality=75&type=webp",
+            "https://haitao.nosdn2.127.net/1dbc52a3r41_800_800.jpg?imageView&thumbnail=150x0&quality=75&type=webp",
+            "https://haitao.nosdn2.127.net/1d8gb21so96_800_800.jpg?imageView&thumbnail=150x0&quality=75&type=webp",
+            "https://haitao.nos.netease.com/1d4knlebr64_800_800.jpg?imageView&thumbnail=150x0&quality=75&type=webp"
+        ],
+        "price": ["￥2750", "￥2750", "￥2850", "￥2950" ],
+        "qty": 1,
+        "service": "质保无忧退",
+        "tips": "一年质保无忧退",
+        "control": ["this.showDrawer1", "this.showDrawer2", "this.showDrawer3", "this.showDrawer4", "this.showDrawer5"]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "success": true,
+    "data": {
+        "title": "dyson 戴森 Supersonic 电吹风机HD01",
+        "desc": "【送一年质保服务】集中气流设计让吹发更快；内置温度计防烫很温柔；马达转速非凡所以更安静；颜值简直逆天！别说你还不想带它回家哦～",
+        "new_price": "2750",
+        "old_price": "￥2950",
+        "youhui": ["特价", "包税"],
+        "type": [
+            {
+                "id":1,
+                "img": "https://haitao.nos.netease.com/7061a236e5c94e64a41446aeb9d3d0a01419662643154i46mhe4x10008.png?imageView&thumbnail=32x0&quality=75",
+                "title": "英国品牌"
+            },
+            {
+                "id":2,
+                "img": "https://haitao.nos.netease.com/183cb5b6-0edd-45d5-9218-3f5d3ab33244.png?imageView&thumbnail=32x0&quality=75",
+                "title": "网易自营"
+            },
+            {
+                "id":3,
+                "img": "https://haitao.nosdn2.127.net/13bd59e6e29a4f06b278c586629e690d.png?imageView&thumbnail=32x0&quality=75",
+                "title": "跨境商品"
+            }
+        ]
+    }
+}

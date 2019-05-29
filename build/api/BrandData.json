@@ -1,0 +1,59 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "titleImg": "https://haitao.nosdn1.127.net/fbcea5c7-e154-4516-ad9e-20399eef9e22T1905211732_960_480.jpg?imageView&thumbnail=750x0&quality=95&type=webp",
+            "porductImg":[
+                {
+                    "id": 1,
+                    "imgUrl": "https://haitao.nosdn1.127.net/cf35687c-8e6d-4252-9ded-a353bd88f10cT1905211751_500_500.jpg?imageView&thumbnail=404x0&quality=95&type=webp",
+                    "title": "名店钜惠",
+                    "txt": "山茶花链包低至4折"
+                },
+                {
+                    "id": 2,
+                    "imgUrl": "https://haitao.nosdn1.127.net/e1d81c02-aaa0-4b92-9fd9-82f423b6cd4cT1905211751_500_500.jpg?imageView&thumbnail=404x0&quality=95&type=webp",
+                    "title": "婚礼百搭",
+                    "txt": "热卖小方包789起"
+                },
+                {
+                    "id": 3,
+                    "imgUrl": "https://haitao.nos.netease.com/06c7207c-0c66-4be8-8c86-500f8a2dd166T1905211754_500_500.jpg?imageView&thumbnail=404x0&quality=95&type=webp",
+                    "title": "潮流新品",
+                    "txt": "吃豆人单肩包949元"
+                },
+                {
+                    "id": 4,
+                    "imgUrl": "https://haitao.nos.netease.com/952011b1-4edb-4c79-8542-554f2e771816T1905211755_500_500.jpg?imageView&thumbnail=404x0&quality=95&type=webp",
+                    "title": "明星同款",
+                    "txt": "蔻驰链条包低至899"
+                },
+                {
+                    "id": 5,
+                    "imgUrl": "https://haitao.nosdn2.127.net/8acd7bf8-190b-4599-9d15-657f1880cbe7T1905211755_500_500.jpg?imageView&thumbnail=404x0&quality=95&type=webp",
+                    "title": "爆款抢购",
+                    "txt": "汤丽柏琦渔夫鞋1399"
+                },
+                {
+                    "id": 6,
+                    "imgUrl": "https://haitao.nosdn2.127.net/46eb3d9c-0d70-435e-bc3e-6daceed2403eT1905211755_500_500.jpg?imageView&thumbnail=404x0&quality=95&type=webp",
+                    "title": "热销爆款",
+                    "txt": "GUCCI链条包4743"
+                },
+                {
+                    "id": 7,
+                    "imgUrl": "https://haitao.nosdn2.127.net/969ebe32-89cc-45a7-bbc3-85c938ec4f01T1905211755_500_500.jpg?imageView&thumbnail=404x0&quality=95&type=webp",
+                    "title": "出街潮衣",
+                    "txt": "Burberry潮T599"
+                },
+                {
+                    "id": 8,
+                    "imgUrl": "https://haitao.nosdn1.127.net/dca618b8-7d21-4b74-9800-6b0af6fe7409T1905211755_500_500.jpg?imageView&thumbnail=404x0&quality=95&type=webp",
+                    "title": "专柜同款",
+                    "txt": "古驰酒神4969元"
+                }
+            ]
+        }
+    ]
+}

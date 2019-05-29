@@ -1,0 +1,500 @@
+{
+    "code": 200,
+    "data": {
+        "productgrade": "97.2%",
+        "pageNo": 1,
+        "commentPoint": 10,
+        "hasMore": true,
+        "goods": {
+            "goodsId": 2743635,
+            "imageUrl": "http://haitao.nos.netease.com/iw7htfzh70_800_800.jpg",
+            "actualCurrentPriceForApp": 2750,
+            "title": "dyson 戴森 Supersonic 电吹风机HD01"
+        },
+        "pageSize": 10,
+        "paginationContext": {
+            "lastId": "8B51B38EA8B0014000000087868720820190318171357GC57ac86aea24133d6",
+            "lastPage": 1
+        },
+        "list": [
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "avatarKaola": "http://haitao.nos.netease.com/201808251315226e8e94400d7f42659411417316b4f04c.jpeg",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "我突然觉得自己好奢侈，居然买了这么贵的吹风机，好嗨吆！考拉真的太奢侈了，居然用那么大的箱子装东西，快递小哥打电话说东西大放不到快递柜里，我只好让他放小区门口的超市。再说说宝物吧，种草好久了，终于把它拿下了，等下月还信用卡的时候心就会痛的要死，收到宝物后扫了一下码显示来自英国，包装盒是原封的，感觉挺好，吹风还是大，感觉不好放。打开试了一下风力好大，但很柔和，不干。突然感觉当时应该买个戴盒子的，好放。就是没舍得花那个钱，还有买这个风机必须配个转换插头，不然没法用。幸好我咨询过了，一起拍了个，一起到的。不然真的束手无策用不了呢。还有话说快递速度也太赞了吧，这么快就到了，真的好嗨吆",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1554216600000,
+                "excellentImgCnt": 4,
+                "goodsCommentId": "20190402225000GC09243a861984ce22",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/20190402224203758473d5f14b4f218604d74a08f2f647.jpeg?klsize=1124x1500",
+                    "http://haitao.nos.netease.com/201904022242045234ec15e1274d668202fc0c91ce558f.jpeg?klsize=1124x1500",
+                    "http://haitao.nos.netease.com/2019040222495611756536c5614632be429ce46c83d55d.jpeg?klsize=1124x1500",
+                    "http://haitao.nos.netease.com/20190402224956d05b4def60da4496b44608eed3033e89.jpeg?klsize=1124x1500"
+                ],
+                "nicknameKaola": "张***朵",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558350318854,
+                "userRegisterDay": 275,
+                "vipType": 1,
+                "zanCount": 22,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "avatarKaola": "http://haitao.nos.netease.com/c54de8ad526845fb8fedad3f4f7d5704.jpeg",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "线太长了，比普通吹风机风量大，吹的快些，头发有光泽。本人头发细软少，也不出油，每次都用护发产品，及润发油，头发有卷3天不洗也很蓬松，3个风嘴几乎不用，只使用了一下最大的那个，不怎么样，也就放弃了，但吹风机还是不错的，按钮看着一般，价钱虽然贵点，还是值得拥有",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1557927471000,
+                "excellentImgCnt": 2,
+                "goodsCommentId": "20190515213751GC4175b9192aa9894a",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/20190515212351d80d6debacd24c57bb4017d97ed95e72.jpeg?klsize=1500x1125",
+                    "http://haitao.nos.netease.com/2019051521235196f3a97ee37f4b87b2b0c0338fea3e0f.jpeg?klsize=1500x1125"
+                ],
+                "nicknameKaola": "自***在",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "白色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"白色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558452648162,
+                "userRegisterDay": 756,
+                "vipType": 1,
+                "zanCount": 3,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "avatarKaola": "http://haitao.nos.netease.com/20170214085315e5dfabd0505f446cbbad11e01dff43e1.jpeg",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "风力：风力真的很大，这么一个小机器，咋能吹出这么大风。\n插头：因为买的时候看参数是220V，第一反应是大陆标准，到手发现是英标，应该是香港或新加坡的。幸好家里有转换插头。220V不需要变压器，不错。\n重量：整体重量感觉在手柄处，散热孔也在手柄处，所以握久了不会感觉手酸。\n效果：齐腰长发，头发先用干发帽包过，普通1200W吹风机全部吹干需要10分钟，戴森5-6分钟吧。",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1553228618000,
+                "excellentImgCnt": 5,
+                "goodsCommentId": "20190322122338GCa0839525e8275fdd",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/20190322121657a207335638274c589afe4b97e1a542c1.jpeg?klsize=1242x1242",
+                    "http://haitao.nos.netease.com/20190322121657cdbc4bb733a4492a85797e2730dc6e13.jpeg?klsize=1242x1242",
+                    "http://haitao.nos.netease.com/2019032212165855ad026f5c98460fbd0120841e472d92.jpeg?klsize=1242x1242",
+                    "http://haitao.nos.netease.com/20190322121658c9d5312884964fd8a90a239e96e1aa49.jpeg?klsize=1242x1242",
+                    "http://haitao.nos.netease.com/20190322121658851b164c2830476d810798726acc67a3.jpeg?klsize=1242x1242"
+                ],
+                "nicknameKaola": "翻***皮",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558268021353,
+                "userRegisterDay": 1313,
+                "vipType": 1,
+                "zanCount": 25,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "avatarKaola": "http://haitao.nos.netease.com/20160511101742f64d86a401284cb8a5a06e683a2a67ff.jpeg",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "确实不错，送货也很快。\n插头：两相，英标。但是现在家里几乎都是圆头插座，所以不用转接头就可以使用。\n外观：美观，大方\n作用：好用，方便携带，入风口在手柄处。\n服务：考拉自营送了一年延保，有质量问题可以退货。\n总体点赞",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1557405697000,
+                "excellentImgCnt": 3,
+                "goodsCommentId": "20190509204137GC1c8bd24bd3a2df96",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/20190509203850e5317d37456e4836ab0966da67201c97.jpeg?klsize=1124x1500",
+                    "http://haitao.nos.netease.com/2019050920385030755a812d4d410183de6479f89a78ab.jpeg?klsize=1124x1500",
+                    "http://haitao.nos.netease.com/20190509203850dc4d61acca10436ab6ea679bbeeb1fb2.jpeg?klsize=1500x1124"
+                ],
+                "nicknameKaola": "柚***柚",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1557475942556,
+                "userRegisterDay": 1234,
+                "vipType": 1,
+                "zanCount": 0,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "avatarKaola": "https://haitao.nos.netease.com/e5bc6bd8-4ad9-41df-82df-7630be4825c4.png",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "是正品啦 看起来很高端 把手握起来也舒服 长时间吹发也不累 而且弄个小造型小弧度还是挺好用的 声音不很大 温度调至2⃣️ 一直保持那个温度 也不烫 不像其他吹风机吹完一身汗",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1554831230000,
+                "excellentImgCnt": 1,
+                "goodsCommentId": "20190410013350GC4ef30df0349e0a6d",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/20190410013153fd2477e0de7640f480a67b8e47bb0f89.jpeg?klsize=480x640"
+                ],
+                "nicknameKaola": "手***5",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558335205072,
+                "userRegisterDay": 62,
+                "vipType": 1,
+                "zanCount": 5,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 32,
+                "avatarKaola": "https://haitao.nos.netease.com/e5bc6bd8-4ad9-41df-82df-7630be4825c4.png",
+                "blackCardMember": false,
+                "canAppend": false,
+                "commentContent": "好厉害的吹风机 吹后头发如丝般顺滑，几天头发和刘海都不变形,你值得拥有",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1557385791000,
+                "excellentImgCnt": 2,
+                "goodsCommentId": "20190509150951GCd4137091b6e32fee",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/201905091509438fbbd69764254917b260db5f3b8b4a57.jpeg?klsize=1080x1440",
+                    "http://haitao.nos.netease.com/2019050915094681ecd1135b3b41ee885f7610ebe5a6de.jpeg?klsize=2448x3264"
+                ],
+                "nicknameKaola": "手***7",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558609566217,
+                "userRegisterDay": 455,
+                "vipType": 0,
+                "zanCount": 3,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "avatarKaola": "http://haitao.nos.netease.com/20180610121616da909ee6de6b477cbba9cfb98fe129e4.jpeg",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "下定决心，买了网红吹风机。收到后用了2次，发现确实好用。吹头发比我之前买的松下快多了。我那个买的200多。\n而且吹的柔顺了一些。\n我和朋友一人买了一个。",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1555251462000,
+                "excellentImgCnt": 3,
+                "goodsCommentId": "20190414221742GC312b67a81f042258",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/201904142216138f9b5cae1495414ca75160d54cd057ad.jpeg?klsize=1500x1125",
+                    "http://haitao.nos.netease.com/2019041422161253583d475ca04adab58e6de7b2473120.jpeg?klsize=1242x1656",
+                    "http://haitao.nos.netease.com/201904142216132fa400f9d7f64ae19a6152365d755697.jpeg?klsize=1242x1656"
+                ],
+                "nicknameKaola": "贾***4",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558018847643,
+                "userRegisterDay": 732,
+                "vipType": 1,
+                "zanCount": 3,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "append": {
+                    "accountId": "",
+                    "afterDays": 3,
+                    "createTime": 1552424061190,
+                    "goodsCommentId": "20190310000421GC6447447a54cee081",
+                    "goodsCommentReplyId": "20190313045341AP5b395c9276fdefc9",
+                    "isPopGoods": false,
+                    "replyContent": "超级不开心的，收到的第五天你们就赠送价值799的脱毛机，难道你的心不会痛吗？",
+                    "replyStatus": 1,
+                    "replyType": 2,
+                    "replyZanCount": 0,
+                    "replyZanStatus": false,
+                    "updateTime": 1552426918000,
+                    "verifyBindingMobile": false
+                },
+                "avatarKaola": "https://haitao.nos.netease.com/e5bc6bd8-4ad9-41df-82df-7630be4825c4.png",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "哇，好高级，由于插头问题还没有用上。这发货速度太快了，让我有点不自知。看了评论才知道很多人到手是一波三折。女神节收到，朋友圈拉仇恨的一枚！",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1552147461000,
+                "excellentImgCnt": 1,
+                "goodsCommentId": "20190310000421GC6447447a54cee081",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/2019031000014768d6c80ea9144da2862de9ef77bdfe34.jpeg?klsize=480x640"
+                ],
+                "nicknameKaola": "手***7",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "replyList": [
+                    {
+                        "accountId": "",
+                        "afterDays": 3,
+                        "createTime": 1552424061190,
+                        "goodsCommentId": "20190310000421GC6447447a54cee081",
+                        "goodsCommentReplyId": "20190313045341AP5b395c9276fdefc9",
+                        "isPopGoods": false,
+                        "replyContent": "超级不开心的，收到的第五天你们就赠送价值799的脱毛机，难道你的心不会痛吗？",
+                        "replyStatus": 1,
+                        "replyType": 2,
+                        "replyZanCount": 0,
+                        "replyZanStatus": false,
+                        "updateTime": 1552426918000,
+                        "verifyBindingMobile": false
+                    }
+                ],
+                "replys": [],
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558438346209,
+                "userRegisterDay": 385,
+                "vipType": 1,
+                "zanCount": 62,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "avatarKaola": "http://haitao.nos.netease.com/20190321164733c35fc2b405804b73bfa2176a96452485.jpeg",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "本人的发质又硬又粗又毛躁，发自内心的评价，真心好用，唯一美中不足的，没有配原装盒与原装袋，还得自己买个原装盒(˶‾᷄ ⁻̫ ‾᷅˵)",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1553156471000,
+                "excellentImgCnt": 2,
+                "goodsCommentId": "20190321162111GCe5c67816578bf98e",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/20190321161750564e6bccf9ad4197ad373bf4ae3cd007.jpeg?klsize=1242x1242",
+                    "http://haitao.nos.netease.com/20190321161855d59c6d3aee574aa985570e4751f3ca30.jpeg?klsize=543x640"
+                ],
+                "nicknameKaola": "c***t",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558335161009,
+                "userRegisterDay": 571,
+                "vipType": 1,
+                "zanCount": 16,
+                "zanStatus": false
+            },
+            {
+                "accountId": "",
+                "accountShow": "",
+                "appType": 31,
+                "avatarKaola": "http://haitao.nos.netease.com/201902221435241a6401ea4b224652a790369eb2731be3.jpeg",
+                "blackCardMember": true,
+                "canAppend": false,
+                "commentContent": "非常好用，果然 贵有贵的好处，用起来很轻 一点儿不累，吹头发也非常快 ，干的很快 ，风劲很大 ",
+                "commentPoint": 5,
+                "commentStatus": 2,
+                "commentType": 1,
+                "createTime": 1552900437000,
+                "excellentImgCnt": 2,
+                "goodsCommentId": "20190318171357GC57ac86aea24133d6",
+                "goodsId": 2743635,
+                "imgUrls": [
+                    "http://haitao.nos.netease.com/201903181713509228ebc420c4493e95af6bacf872edbd.jpeg?klsize=480x640",
+                    "http://haitao.nos.netease.com/2019031817135076fa6cc8c5194f8182a6879d55e7bb7e.jpeg?klsize=480x640"
+                ],
+                "nicknameKaola": "岁***安",
+                "orderId": "",
+                "receivedKaoLaBeanCount": 0,
+                "skuPropertyList": [
+                    {
+                        "propertyName": "颜色",
+                        "propertyValue": "紫红色"
+                    }
+                ],
+                "skuPropertyValue": "[{\"propertyName\":\"颜色\",\"propertyValue\":\"紫红色\"}]",
+                "stamperImageUrl": "http://haitao.nos.netease.com/14970064884245-grass2.png",
+                "stamperName": "会种草",
+                "updateTime": 1558055819651,
+                "userRegisterDay": 113,
+                "vipType": 1,
+                "zanCount": 7,
+                "zanStatus": false
+            }
+        ],
+        "totalCount": 2051,
+        "cmtTagList": [
+            {
+                "count": 2051,
+                "isNegative": false,
+                "name": "全部",
+                "tagType": 100
+            },
+            {
+                "count": 386,
+                "isNegative": false,
+                "name": "有图",
+                "tagType": 101
+            },
+            {
+                "count": 42,
+                "isNegative": false,
+                "name": "有追评",
+                "tagType": 102
+            },
+            {
+                "count": 40,
+                "isNegative": false,
+                "name": "是正品",
+                "tagType": 200
+            },
+            {
+                "count": 5,
+                "isNegative": false,
+                "name": "有视频",
+                "tagType": 103
+            },
+            {
+                "count": 16,
+                "isNegative": false,
+                "name": "吹干快",
+                "tagType": 200
+            },
+            {
+                "count": 11,
+                "isNegative": false,
+                "name": "头发柔顺",
+                "tagType": 200
+            },
+            {
+                "count": 9,
+                "isNegative": false,
+                "name": "价格实惠",
+                "tagType": 200
+            },
+            {
+                "count": 9,
+                "isNegative": false,
+                "name": "退税快",
+                "tagType": 200
+            },
+            {
+                "count": 8,
+                "isNegative": false,
+                "name": "效率高",
+                "tagType": 200
+            },
+            {
+                "count": 8,
+                "isNegative": false,
+                "name": "物流快",
+                "tagType": 200
+            }
+        ],
+        "navTitle": "精彩评价"
+    }
+}

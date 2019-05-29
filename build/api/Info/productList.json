@@ -1,0 +1,103 @@
+{
+    "data": {
+        "shopInfo": null,
+        "brand": {
+            "originCountryCode": null,
+            "originCountryName": null,
+            "originCountryFlag": null,
+            "brandId": 1499,
+            "brandName": "dyson 戴森",
+            "brandShortName": null,
+            "brandLogo": "http://haitao.nos.netease.com/idk08yv746.jpg",
+            "detailShort": null,
+            "brandCooperationImage": null,
+            "brandStoryImage": null,
+            "brandVideoCoverImage": null,
+            "brandVideoLink": null,
+            "hasAuthImage": false,
+            "hasCooperationImage": false,
+            "zoneStripImgUrl": null,
+            "brandAuthorizationList": null,
+            "brandNameDetail": null,
+            "brandPageUrl": null,
+            "brandGoodsAmount": 66
+        },
+        "goodsList": [
+            {
+                "goodsId": 1814452,
+                "title": "【直降400元】【国行保修】dyson 戴森 Supersonic 电吹风机HD01紫红色",
+                "imageUrl": "http://haitao.nos.netease.com/e9e66dc1fd1b4391b68e67a2f801299f1558665981468jw1hhcei10094.jpg",
+                "price": 2550,
+                "promotionLabel": null,
+                "skuColorCount": 1,
+                "scm": "v1.3.3_p_1814452._.rid_wX6P9uo6Tx3xIdDpcdf-rec_121&udl;1&udl;hot:brandhot+122&udl;1&udl;local"
+            },
+            {
+                "goodsId": 2610088,
+                "title": "dyson 戴森 美发造型器Airwrap 卷发棒 顺滑造型套装【建议正常/粗硬发质选购】",
+                "imageUrl": "http://haitao.nos.netease.com/67528945cb8f4d038b1ef576c5e28df71539678799657jnbh055b10396.jpg",
+                "price": 3650,
+                "promotionLabel": "特价",
+                "skuColorCount": 0,
+                "scm": "v1.3.3_p_2610088._.rid_wX6P9uo6Tx3xIdDpcdf-rec_121&udl;1&udl;hot:brandhot+122&udl;1&udl;local"
+            },
+            {
+                "goodsId": 2867134,
+                "title": "Dyson 戴森 HD01电吹风 Supersonic 便携智能无扇家用吹风机",
+                "imageUrl": "http://pop.nosdn.127.net/8e1a8f43-c8b8-44b9-aa53-f36d58e45e71",
+                "price": 2399,
+                "promotionLabel": "限时购",
+                "skuColorCount": 4,
+                "scm": "v1.3.3_p_2867134._.rid_wX6P9uo6Tx3xIdDpcdf-rec_121&udl;1&udl;hot:brandhot+122&udl;1&udl;local"
+            },
+            {
+                "goodsId": 2867808,
+                "title": "【店保一年】Dyson 戴森 V8 Absolute无线手持吸尘器 6吸头 海外版",
+                "imageUrl": "http://pop.nosdn.127.net/7bf1371d-a04d-4047-9ff3-4eac07ea7ff6",
+                "price": 2399,
+                "promotionLabel": "特价",
+                "skuColorCount": 2,
+                "scm": "v1.3.3_p_2867808._.rid_wX6P9uo6Tx3xIdDpcdf-rec_121&udl;1&udl;hot:brandhot+122&udl;1&udl;local"
+            },
+            {
+                "goodsId": 2821557,
+                "title": "【美版】dyson 戴森 cyclone V10 absolute 无线吸尘器 地毯/地板双主吸头",
+                "imageUrl": "https://haitao.nos.netease.com/eed2f555-4502-42b8-9d3a-845e818b948e_800_800.jpg",
+                "price": 3999,
+                "promotionLabel": "每满1000减100",
+                "skuColorCount": 0,
+                "scm": "v1.3.3_p_2821557._.rid_wX6P9uo6Tx3xIdDpcdf-rec_121&udl;1&udl;hot:brandhot+122&udl;1&udl;local"
+            },
+            {
+                "goodsId": 2796632,
+                "title": "【美版】dyson 戴森 V8 Absolute 无线吸尘器 2主吸头+4配件吸头",
+                "imageUrl": "http://haitao.nos.netease.com/20f1af1b7be44399808d30d35ea2cd031508418202920j8yh92c111202.jpg",
+                "price": 2999,
+                "promotionLabel": "每满1000减100",
+                "skuColorCount": 2,
+                "scm": "v1.3.3_p_2796632._.rid_wX6P9uo6Tx3xIdDpcdf-rec_121&udl;1&udl;hot:brandhot+122&udl;1&udl;local"
+            },
+            {
+                "goodsId": 2821558,
+                "title": "【美版】dyson 戴森 cyclone V10 ANIMAL 无线吸尘器",
+                "imageUrl": "https://haitao.nos.netease.com/68a534da-8a37-460f-8337-8a8e1a5a88ae_800_800.jpg",
+                "price": 3099,
+                "promotionLabel": null,
+                "skuColorCount": 0,
+                "scm": "v1.3.3_p_2821558._.rid_wX6P9uo6Tx3xIdDpcdf-rec_121&udl;1&udl;hot:brandhot+122&udl;1&udl;local"
+            },
+            {
+                "goodsId": 2796633,
+                "title": "【美版】dyson 戴森 V8 animal 无线手持吸尘器 HEPA滤网 5吸头",
+                "imageUrl": "http://haitao.nos.netease.com/c6ac87d55618480e9a146a2edde3d87f1506694012160j85ypo8b11663.jpg",
+                "price": 2799,
+                "promotionLabel": "每满1000减100",
+                "skuColorCount": 0,
+                "scm": "v1.3.3_p_2796633._.rid_wX6P9uo6Tx3xIdDpcdf-rec_121&udl;1&udl;hot:brandhot+122&udl;1&udl;local"
+            }
+        ],
+        "scm": 0
+    },
+    "code": 200,
+    "message": null
+}

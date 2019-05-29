@@ -1,0 +1,75 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "titleImg": "https://haitao.nosdn2.127.net/6280e628-797d-4d98-902f-eeacf5aaf399T1905221408_960_480.jpg?imageView&thumbnail=750x0&quality=95&type=webp",
+            "porductImg":[
+                {
+                    "id": 1,
+                    "imgUrl": "https://haitao.nosdn1.127.net/1292278ceab84759bb613e43b91eb9501542170399984jogofs9o13907.jpg?imageView&thumbnail=404x404&quality=95&type=webp",
+                    "title": "2件装 Centrum 善存",
+                    "txt": "包税",
+                    "new_price": "￥138",
+                    "old_price": "￥348"
+                },
+                {
+                    "id": 2,
+                    "imgUrl": "https://haitao.nosdn2.127.net/73d77de7b99a452ca714d77dd69fcf0b1539315394658jn5gn3v810053.jpg?imageView&thumbnail=404x404&quality=95&type=webp",
+                    "title": "2件装 Centrum 善存",
+                    "txt": "包税",
+                    "new_price": "￥138",
+                    "old_price": "￥248"
+                },
+                {
+                    "id": 3,
+                    "imgUrl": "https://haitao.nosdn1.127.net/a04dd89ebd494a1baa9fc2d0c2d0aad51529387707768jil9ybmj19520.jpg?imageView&thumbnail=404x404&quality=95&type=webp",
+                    "title": "【专为中老年女性研制】Cent",
+                    "txt": "包税",
+                    "new_price": "￥149",
+                    "old_price": "￥218"
+                },
+                {
+                    "id": 4,
+                    "imgUrl": "https://haitao.nosdn2.127.net/ivt53s6m79_800_800.jpg?imageView&thumbnail=404x404&quality=95&type=webp",
+                    "title": "【保持男性活力】Centrum",
+                    "txt": "包税",
+                    "new_price": "￥149",
+                    "old_price": "￥219"
+                },
+                {
+                    "id": 5,
+                    "imgUrl": "https://haitao.nosdn2.127.net/ef5837dd2d4f4ab399b2bc3afbddb0901517490063142jd4ieihe10017.jpg?imageView&thumbnail=404x404&quality=95&type=webp",
+                    "title": "【内服护肤】Imedeen怡美",
+                    "txt": "包税",
+                    "new_price": "￥79",
+                    "old_price": "￥219"
+                },
+                {
+                    "id": 6,
+                    "imgUrl": "https://haitao.nos.netease.com/1bkr841ak30_800_800.jpg?imageView&thumbnail=404x404&quality=95&type=webp",
+                    "title": "IMEDEEN 怡美缇 胶原蛋",
+                    "txt": "包税",
+                    "new_price": "￥349",
+                    "old_price": "￥599"
+                },
+                {
+                    "id": 7,
+                    "imgUrl": "https://haitao.nos.netease.com/37800eb72f8348f7b1b31067646f8aa51539673864406jnbe2d3010307.jpg?imageView&thumbnail=404x404&quality=95&type=webp",
+                    "title": "【保持身体年轻态】Centru",
+                    "txt": "包税",
+                    "new_price": "￥339",
+                    "old_price": "￥579"
+                },
+                {
+                    "id": 8,
+                    "imgUrl": "https://haitao.nos.netease.com/37800eb72f8348f7b1b31067646f8aa51539673864406jnbe2d3010307.jpg?imageView&thumbnail=404x404&quality=95&type=webp",
+                    "title": "【保持身体年轻态】Centru",
+                    "txt": "满3件享5.8折",
+                    "new_price": "￥118",
+                    "old_price": "￥159"
+                }
+            ]
+        }
+    ]
+}

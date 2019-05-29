@@ -1,0 +1,89 @@
+{
+    "success": true,
+    "likeTitle": "https://haitao.nosdn2.127.net/9f470333-13c8-432b-bdb0-333427703b8dT1905061714_960_118.gif",
+    "heimaTitle": "https://haitao.nos.netease.com/91d4f87c-b558-4d19-9721-7b41ebafe696T1905061716_960_118.jpg?imageView&thumbnail=750x92&quality=80&type=webp",
+    "likeList": [
+        {
+            "id": 1,
+            "imgUrl": "https://haitao.nosdn2.127.net/5b7bbf42e1764784a050a83a3127d2d61552564629459jt8kw72810022.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "【当家爆款 温和氨基酸】Freeplus 芙丽芳丝 净润洗面霜 100g",
+            "type": "热销",
+            "youhui": "新人优惠",
+            "new_price": "￥99",
+            "old_price": "￥165"
+        },
+        {
+            "id": 2,
+            "imgUrl": "https://haitao.nos.netease.com/1bf78db7836646ebac779c3d9819a06a1556249693364juxivwke10075.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "Papa recipe 春雨 蜂蜜补水保湿面膜 25克/片 10片装 当红爆款",
+            "type": "热销",
+            "youhui": "满2件享7.5折 | 特价",
+            "new_price": "￥90",
+            "old_price": "￥129"
+        },
+        {
+            "id": 3,
+            "imgUrl": "https://haitao.nos.netease.com/66e319e1c9ce4f90adf23bc9ba830adc1543558616942jp3my3bp10280.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "unicharm 尤妮佳 Silcot省1/2化妆水化妆棉 40枚 四盒装",
+            "type": "热销",
+            "youhui": "新人优惠",
+            "new_price": "￥49",
+            "old_price": "￥109"
+        },
+        {
+            "id": 4,
+            "imgUrl": "https://haitao.nosdn1.127.net/d504f0b073514ed094a92356c2c06baf1551665073240jstpbky811294.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "【清爽型/滋润型】Freeplus 芙丽芳丝 水乳洁面套装（清爽型/柔润型）",
+            "type": "",
+            "youhui": "",
+            "new_price": "￥359",
+            "old_price": "￥530"
+        },
+        {
+            "id": 5,
+            "imgUrl": "https://haitao.nos.netease.com/1bnke2u7089_800_800.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "【当家爆款 温和氨基酸】Freeplus 芙丽芳丝 净润洗面霜 100g*2",
+            "type": "热销",
+            "youhui": "白条免息",
+            "new_price": "￥205",
+            "old_price": "￥255"
+        },
+        {
+            "id": 6,
+            "imgUrl": "https://haitao.nosdn1.127.net/iv99zkcc27_800_800.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "【当家爆款 温和氨基酸】Freeplus 芙丽芳丝 净润洗面霜 100g*3",
+            "type": "热销",
+            "youhui": "白条免息",
+            "new_price": "￥289",
+            "old_price": "￥345"
+        },
+        {
+            "id": 7,
+            "imgUrl": "https://haitao.nosdn1.127.net/d504f0b073514ed094a92356c2c06baf1551665073240jstpbky811294.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "【清爽型/滋润型】Freeplus 芙丽芳丝 水乳洁面套装（清爽型/柔润型）",
+            "type": "",
+            "youhui": "",
+            "new_price": "￥359",
+            "old_price": "￥530"
+        },
+        {
+            "id": 8,
+            "imgUrl": "https://haitao.nos.netease.com/1bnke2u7089_800_800.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "【当家爆款 温和氨基酸】Freeplus 芙丽芳丝 净润洗面霜 100g*2",
+            "type": "热销",
+            "youhui": "白条免息",
+            "new_price": "￥205",
+            "old_price": "￥255"
+        },
+        {
+            "id": 9,
+            "imgUrl": "https://haitao.nosdn1.127.net/iv99zkcc27_800_800.jpg?imageView&thumbnail=237x237&quality=80&type=webp",
+            "title": "【当家爆款 温和氨基酸】Freeplus 芙丽芳丝 净润洗面霜 100g*3",
+            "type": "热销",
+            "youhui": "白条免息",
+            "new_price": "￥289",
+            "old_price": "￥345"
+        }
+    ]
+    
+}
