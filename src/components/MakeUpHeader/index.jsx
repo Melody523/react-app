@@ -3,9 +3,6 @@ import { NavBar, Icon, SearchBar } from 'antd-mobile';
 import { withRouter } from 'react-router-dom';
 
 class MakeUpHeader extends PureComponent{
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <Fragment>

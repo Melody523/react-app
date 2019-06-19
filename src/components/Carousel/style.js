@@ -5,8 +5,8 @@ export const CarouselWrapper = styled.div`
     * { touch-action: pan-y; } 
     .ant-carousel .slick-slide {
         text-align: center;
-        height: 160px;
-        line-height: 160px;
+        height: 13.4em;
+        line-height: 13.4em;
         background: #364d79;
         overflow: hidden;
       }

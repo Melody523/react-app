@@ -17,15 +17,14 @@ function renderTabBar(props) {
                 </div>
             </div>
         </div>
-            
-        );
-  }
-  const tabs = [
-    { title: <Badge><span>5月23日</span><br/><span>00:00</span></Badge> },
-    { title: <Badge><span>5月23日</span><br/><span>10:00</span></Badge> },
-    { title: <Badge><span>5月23日</span><br/><span>13:00</span></Badge> },
-    { title: <Badge><span>5月23日</span><br/><span>17:00</span></Badge> },
-  ];
+    );
+}
+const tabs = [
+{ title: <Badge><span>5月23日</span><br/><span>00:00</span></Badge> },
+{ title: <Badge><span>5月23日</span><br/><span>10:00</span></Badge> },
+{ title: <Badge><span>5月23日</span><br/><span>13:00</span></Badge> },
+{ title: <Badge><span>5月23日</span><br/><span>17:00</span></Badge> },
+];
   
 
 class ReXiao extends PureComponent{

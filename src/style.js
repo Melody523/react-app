@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    
     font: inherit;
     vertical-align: baseline;
   }
@@ -29,6 +29,8 @@ export const GlobalStyle = createGlobalStyle`
   body {
     line-height: 1;
   }
+  html {font-size: 100%;}
+	body {font-size: 1em;}
   ol, ul {
     list-style: none;
   }
