@@ -62,7 +62,7 @@ class Refresh extends PureComponent{
               index = 0;
             } 
             return (
-                <div key={obj.id} className="RecommendItem">
+                <div key={obj.id||''} className="RecommendItem">
                   <Link to="/info">
                     <img src={obj.imgUrl} alt=""/>
                     <p>{obj.title}</p>

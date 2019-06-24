@@ -103,7 +103,7 @@ class Header extends PureComponent{
             } 
             return (
                 <Link to="/info">
-                <div className="main_item"key={obj.id}>
+                <div className="main_item"key={obj.id||''}>
                 <img src={obj.imageUrl} alt=""/>
                 <p className="title">{obj.title}</p>
                 {

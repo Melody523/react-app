@@ -277,7 +277,7 @@ export const Footer = styled.div`
         height: 50px;
         color: #fff;
         font-size：15px;
-        padding: 0 25px;
+        text-align: center;
         background-color: #c1c1c1;
         line-height: 50px;
         font-weight: bold;

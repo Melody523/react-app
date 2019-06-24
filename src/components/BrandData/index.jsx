@@ -14,8 +14,8 @@ class BrandData extends PureComponent{
             <BrandListWrapper>
                 {
                     brandData.map((item) => (
-                        <div className="BrandItem" key={item.id}>
-                            <Link to="/search"><img src={item.titleImg} alt=""/></Link>
+                        <div className="BrandItem" key={item.id||''}>
+                            <Link to="/search"><img src={item.titleImg||''} alt=""/></Link>
                             <section>
                                 <div className="ProductList">
                                     {
