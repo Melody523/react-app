@@ -13,10 +13,10 @@ import Cart from './page/Cart/index.jsx';
 import Mine from './page/Mine/index.jsx';
 import Search from './page/Search/index.jsx';
 
-document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px'
-window.onresize = function  () {
-	document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px'
-}
+// document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px'
+// window.onresize = function  () {
+// 	document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px'
+// }
 
 class App extends PureComponent{
   render() {

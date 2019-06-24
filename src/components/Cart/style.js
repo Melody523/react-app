@@ -6,11 +6,11 @@ export const HeaderWrapper = styled.div`
     left: 0;
     width: 100%;
     background-color: #fff;
-    height: 0.45rem;
+    height: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0.1rem;
+    padding: 0 10px;
     border-bottom: 0.5px solid #ddd;
     .title{
         flex: 1;
@@ -21,16 +21,16 @@ export const HeaderWrapper = styled.div`
     .iconfont{
         color: red;
         font-size: 22px;
-        margin-left: 0.10rem;
+        margin-left: 10px;
     }
     .logo{
-        width: 0.24rem;
-        height: 0.24rem;
-        margin-left: 0.10rem;
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
     }
 `;
 export const House = styled.div`
-    margin-top: 0.45rem;
+    margin-top: 45px;
     height: 100%;
     .header{
         display: flex;
@@ -39,19 +39,19 @@ export const House = styled.div`
         height: 40px;
         background-color: #fafafa;
         border-bottom: 0.5px solid #ddd;
-        padding: 0 0.10rem;
+        padding: 0 10px;
         img{
-            width: 0.20rem;
-            height: 0.20rem;
-            margin-right: 0.10rem;
+            width: 20px;
+            height: 20px;
+            margin-right:10px;
         }
         .ziying{
             .left{
                 color: #fff;
                 background-color: red;
-                margin-right: 0.05rem;
-                padding: 0 0.05rem;
-                border-radius: 0.08rem;
+                margin-right: 5px;
+                padding: 0 5px;
+                border-radius: 8px;
                 font-size: 11px;
             }
             .right{
@@ -64,12 +64,12 @@ export const House = styled.div`
         background-color: #fff;
         .product-item{
             .top{
-                height: 0.40rem;
+                height: 40px;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 .left{
-                    padding: 0 0.10rem 0 0.15rem;
+                    padding: 0 10px 0 15px;
                    .left_1{
                        color: #fff;
                        font-size: 10px;
@@ -77,8 +77,8 @@ export const House = styled.div`
                        background-color: #e31436;
                        margin-right: 2px;
                        border-radius: 5px;
-                       height: 0.16rem;
-                       line-height: 0.16rem;
+                       height: 16px;
+                       line-height: 16px;
                    } 
                    .left_2{
                        color: #666;
@@ -88,7 +88,7 @@ export const House = styled.div`
                 .right{
                     color: red;
                     font-size: 12px;
-                    padding: 0.04rem 0.15rem 0.04rem 0.12rem;
+                    padding: 4px 15px 4px 12px;
                     .iconfont{
                         color: red;
                         font-size: 12px;
@@ -97,34 +97,34 @@ export const House = styled.div`
             }
             .middle{
                 display: flex;
-                padding: 0 0.10rem;
+                padding: 0 10px;
                 .choose{
                     display: flex;
                     align-items: center;
                     justify-content: space-around;
-                    width: 0.45rem;
-                    height: 0.90rem;
+                    width: 45px;
+                    height: 90px;
                     position: relative;
                     img{
-                        width: 0.20rem;
-                        height: 0.20rem;
+                        width: 20px;
+                        height: 20px;
                     }
                 }
                 .product-info{
                     display: flex;
-                    padding: 0 0.15rem 0 0.12rem;
+                    padding: 0 15px 0 12px;
                     img{
-                        width: 0.90rem;
-                        height: 0.90rem;
+                        width: 90px;
+                        height: 90px;
                     }
                     .container{
-                        width: 2.40rem;
+                        width: 240px;
                         padding: 0 15px 0 12px;
                         .label_content{
                             display: flex;
                             flex-wrap: nowrap;
                             justify-content: flex-start;
-                            width: 2.40rem;
+                            width: 240px;
                             .label{
                                 span{
                                     color: #ff1e32;
@@ -169,17 +169,17 @@ export const House = styled.div`
                                 .count{
                                     display: flex;
                                     .btn{
-                                        width: 0.25rem;
-                                        height: 0.25rem;
+                                        width: 25px;
+                                        height: 25px;
                                         border: 0.5px solid #ccc;
                                         font-size: 12px;
                                         display: block;
-                                        line-height: 0.25rem;
+                                        line-height: 25px;
                                         text-align: center;
                                     }
                                     input{
-                                        width: 0.41rem;
-                                        height: 0.25rem;
+                                        width: 41px;
+                                        height: 25px;
                                         border: 0.5px solid #ccc;
                                         text-align: center;
                                     }
@@ -273,13 +273,13 @@ export const Footer = styled.div`
         }
     }
     .buy{
-        width: 0.80rem;
-        height: 0.50rem;
+        width: 80px;
+        height: 50px;
         color: #fff;
         font-size：15px;
         padding: 0 25px;
         background-color: #c1c1c1;
-        line-height: 0.50rem;
+        line-height: 50px;
         font-weight: bold;
     }
     .active{
