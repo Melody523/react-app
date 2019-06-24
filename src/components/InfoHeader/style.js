@@ -28,15 +28,15 @@ export const InfoHeaderWrapper = styled.div`
             justify-content: space-between;
             align-items: center;
             height: 45px;
-            .ant-anchor-link{
+            .link{
                 flex: 1;
                 display: block;
                 text-align: center;
                 font-size: 14px;
                 color: #333;
-                padding: 10px 5px;
+                padding: 10px 13px;
             }
-            .ant-anchor-link-active{
+            .active{
                 border-bottom: 1px solid red;
             }
             .ant-anchor-link-title{

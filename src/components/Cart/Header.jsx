@@ -15,11 +15,13 @@ class Header extends PureComponent{
         this.changeChoose = this.changeChoose.bind(this);
     }
     componentDidMount() {
-        this.props.getCartList();
+        setTimeout(() => {
+            this.props.getCartList();
+        }, 0)
     }
+    
     render() {
         const cartList = this.props.cartList.toJS();
-        console.log(cartList);
         return (
             <Fragment>
                 <HeaderWrapper>
@@ -130,7 +132,7 @@ class Header extends PureComponent{
                         <span className="price">总价（不含税）：<span>￥{this.state.total}</span></span>
                         <span className="tax">预估税费：￥{this.state.tax}</span>
                     </div>
-                    <div className={this.state.choosed?'right active' : 'right'}>结算</div>
+                    <div className={this.state.choosed ? 'buy active' : 'buy'}>结算</div>
                 </Footer>
             </Fragment>
         )

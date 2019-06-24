@@ -6,13 +6,13 @@ export const BrandListWrapper = styled.div`
         section{
             overflow: scroll;
             position: relative;
-            top: -25px;
+            top: -0.25rem;
             left: 0;
             .ProductList{
                 display: flex;
                 flex-wrap: nowrap;
                 overflow: visible;
-                margin-left: 20px;
+                margin-left: 0.2rem;
                 border-left: 0.5px solid #ccc;
                 border-top: 0.5px solid #ccc;
                 .ProductItem{
@@ -22,23 +22,23 @@ export const BrandListWrapper = styled.div`
                         font-size: 12px;
                         color: #333;
                         padding: 6px 0;
-                        line-height: 14px;
+                        line-height: 0.14rem;
                         margin: 0;
                     }
                     img{
-                        width: 106px;
+                        width: 1.06rem;
                         height: auto;
                         border-right: 0.5px solid #ccc;
                     }
                     .desc{
                         border: 0.5px solid #ccc;
                         border-left: none;
-                        padding: 6px
+                        padding: 0.06rem;
                         .txt{
                             color: red;
                             font-size: 10px;
                             border: 0.5px solid red;
-                            height: 15px;
+                            height: 0.15rem;
                             border-radius: 7.5px;
                             padding: 0 4px;
                         }
@@ -72,13 +72,13 @@ export const BrandListWrapper = styled.div`
                     border-bottom: 0.5px solid #ccc;
                     background: #fff url('https://haitao.nos.netease.com/d1e92de4-e260-4f05-a8ab-b9dd30f38073.png') no-repeat;
                     background-size: contain;
-                    background-position: 0 30px;
+                    background-position: 0 0.30rem;
                     p{
-                        width: 106px;
+                        width: 1.06rem;
                         font-size: 13px;
                         text-align: center;
                         color: #696969;
-                        margin-top: 106px;
+                        margin-top: 1.06rem;
                     }
                 }
             }
@@ -87,7 +87,5 @@ export const BrandListWrapper = styled.div`
             width: 100%;
             height: auto;
         }
-        
-        
     }
 `;

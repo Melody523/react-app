@@ -5,9 +5,6 @@ import { Anchor } from 'antd';
 const { Link } = Anchor;
 
 class NavAnchor extends PureComponent {
-    componentDidMount() {
-        this.props.getNavHeader();
-    }
     scrollToAnchor(anchorName) {
         anchorName = anchorName.slice(1)
         if (anchorName) {

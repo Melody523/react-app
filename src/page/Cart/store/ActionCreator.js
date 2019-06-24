@@ -8,10 +8,15 @@ const GetCartList = (cartList) => ({
 })
 
 export const CartList = () => {
-    return (dispatch) => {
-        axios.get('api/cart/cartList.json').then((res) => {
-            const action = GetCartList(res.data.cartShow);
-            dispatch(action);
-        })
+    return async (dispatch) => {
+        // axios.get('api/cart/cartList.json').then((res) => {
+        //     console.log(res)
+        //     const action = GetCartList(res.data.cartShow);
+        //     dispatch(action);
+        // })
+        const res = await axios.get('api/cart/cartList.json');
+        const action = GetCartList(res.data.cartShow);
+        dispatch(action);
+
     }
 }
