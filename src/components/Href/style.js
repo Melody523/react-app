@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
 export const HrefWrapper = styled.div`
+    width: 100%;
     .nav{
+        width: 100%;
         .ant-anchor-link{
             padding: 0;
             width: 20%;
+            height: 53px;   
         }
         .ant-anchor-wrapper{
             padding-left: 0px;
@@ -12,6 +15,7 @@ export const HrefWrapper = styled.div`
             overflow: hidden;
         }
         .nav_list{
+            width: 100%;
             display: flex;
             justify-content: space-between;
             flex-wrap: nowrap;

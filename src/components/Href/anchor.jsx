@@ -14,6 +14,9 @@ class NavAnchor extends PureComponent {
             if (anchorElement) { anchorElement.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
         }
     }
+    componentDidMount() {
+        this.props.getNavHeader();
+    }
     render() {
         const makeupNav = this.props.makeupNav.toJS();
         return (
