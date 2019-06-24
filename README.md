@@ -1,68 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 商城移动页面开发
+访问连接https://melody523.github.io/react-app/build/#
 
-## Available Scripts
+**项目介绍**：技术栈使用 react + antd-mobile+ axios + react-router-dom + redux + react-redux + redux-thunk + styled-components，主要涉及首页、频道页、详情页、评论页、搜索页等；
 
-In the project directory, you can run:
+## 技术点总结
+1. React中使用HashRouter会与使用锚点滚动的a标签中的href产生冲突。
+解决：对a标签绑定点击事件，传入对应跳转的id，利用document.getElementById方法查询到锚点，再利用h5中的方法scrollIntoView跳转到对应的id标签；
 
-### `npm start`
+2. 实现评论图片点击放大并可滑动预览的问题。
+解决：利用div设置遮罩层，和antd的Carousel组件实现图片放大预览；对评论中的小图绑定点击事件，点击显示遮罩层和图片放大可左右滑动预览；对遮罩层绑定点击事件，点击遮罩层关闭预览。
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+3. 实现不同的视图中进行切换，并自定义tabs不仅限于字符串的title.
+解决：antd-mobile中Tabs组件可以对不同视图进行切换，需引入Badge组件，Badge组件主要是用于设置图标右上角的红点，但可在Badge内写span等标签自定义tabs的title；在tabs和内容之间若需要添加公用内容，可利用 renderTab进行重新封装，在<Tabs.DefaultTabBar {...props} />下添加公用内容；
