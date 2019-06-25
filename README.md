@@ -43,4 +43,20 @@ em和rem相对于px更具有灵活性，相对长度单位，更适用于响应�
 hash 虽然出现在 URL 中，但不会被包括在 HTTP 请求中，对后端完全没有影响，因此改变 hash 不会重新加载页面。  
 在browserHistory 模式下，URL 是指向真实 URL 的资源路径，当通过真实 URL 访问网站的时候，由于路径是指向服务器的真实路径，但该路径下并没有相关资源，所以用户访问的资源不存在。
 
+6. 后退实现
+```
+import {withRouter} from "react-router-dom";
+import React, { PureComponent } from 'react';
+class ReturnLink extends PureComponent{
+    render() {
+        return(
+            <span onClick={this.goback.bind(this)} className="iconfont">&#xe630;</span>
+        )
+    }
+    goback() {
+        this.props.history.goBack();
+    }
+}
+export default withRouter(ReturnLink);
+```
 
