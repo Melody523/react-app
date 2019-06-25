@@ -51,22 +51,26 @@ class BrandRecommend extends PureComponent{
                             <p>小考拉推荐</p>
                         </div>
                         <div className="product">
-                            <ul className="product_list">
-                                {
-                                    productRecommend.map((item) => (
-                                        <li key={item.goodsId} className="product_item">
-                                            <Link to="/info">
-                                            <img src={item.imageUrl} alt=""/>
-                                            <p className="title">{item.title}</p>
-                                            <p className="price">
-                                                <span className="current">￥{item.currentPrice}</span>
-                                                <span className="market">￥{item.marketPrice}</span>
-                                            </p>
-                                            </Link>
-                                        </li>
-                                    ))
-                                }
-                            </ul>
+                            {
+                                productRecommend.length === 0 ? '' : (
+                                    <ul className="product_list">
+                                        {
+                                            productRecommend.map((item) => (
+                                                <li key={item.goodsId} className="product_item">
+                                                    <Link to="/info">
+                                                    <img src={item.imageUrl} alt=""/>
+                                                    <p className="title">{item.title}</p>
+                                                    <p className="price">
+                                                        <span className="current">￥{item.currentPrice}</span>
+                                                        <span className="market">￥{item.marketPrice}</span>
+                                                    </p>
+                                                    </Link>
+                                                </li>
+                                            ))
+                                        }
+                                    </ul>
+                                )
+                            }
                         </div>
                     </div>
                     <p className="fenge"></p>

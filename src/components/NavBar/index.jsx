@@ -12,18 +12,23 @@ class NavBar extends PureComponent{
         const { titleImg, navList } = this.props;
         return (
             <NavBarWrapper>
-                <img src={titleImg} className="titleImg" alt="" />
-                <ul>
-                    {
-                        navList.toJS().map((item) => (
-                            <li key={item.id}>
-                                <Link to="/makeup">
-                                    <img src={item.imgUrl} alt=""/>
-                                </Link>
-                            </li>
-                        ))
-                    }
-                </ul>
+                <img src={titleImg||''} className="titleImg" alt="" />
+                {
+                    navList.toJS().length === 0 ? '' : 
+                    (
+                        <ul>
+                            {
+                                navList.toJS().map((item) => (
+                                    <li key={item.id}>
+                                        <Link to="/makeup">
+                                            <img src={item.imgUrl} alt=""/>
+                                        </Link>
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    )
+                }
             </NavBarWrapper>
         )
     }

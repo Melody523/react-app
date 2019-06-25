@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import { NavWrapper } from './style';
 import { connect } from 'react-redux';
 import * as ActionCreator from '../../page/Home/store/ActionCreator';
@@ -11,19 +11,25 @@ class NavImg extends PureComponent{
     render() {
         const navImg = this.props.navImg.toJS();
         return (
-            <NavWrapper>
-                <Link to="/makeup"><img src={navImg[0]} className="top" alt=""/></Link>
-                
-                <div className="bottom_container">
-                <Link to="/makeup"><img className="left" src={navImg[1]} alt=""/></Link>
-                    <div className="right">
-                    <Link to="/makeup"><img src={navImg[2]} alt=""/></Link>
-                    <Link to="/makeup"><img src={navImg[3]} alt=""/></Link>
-                    </div>
-                </div>
-                <Link to="/makeup"><img className="bottom_1" src={navImg[4]} alt=""/></Link>
-                <Link to="/makeup"><img className="bottom_1" src={navImg[5]} alt=""/></Link>
-            </NavWrapper>
+            <Fragment>
+                {
+                    navImg.length === 0 ? '' : 
+                    (
+                        <NavWrapper>
+                            <Link to="/makeup"><img src={navImg[0]} className="top" alt=""/></Link>
+                            <div className="bottom_container">
+                            <Link to="/makeup"><img className="left" src={navImg[1]} alt=""/></Link>
+                                <div className="right">
+                                <Link to="/makeup"><img src={navImg[2]} alt=""/></Link>
+                                <Link to="/makeup"><img src={navImg[3]} alt=""/></Link>
+                                </div>
+                            </div>
+                            <Link to="/makeup"><img className="bottom_1" src={navImg[4]} alt=""/></Link>
+                            <Link to="/makeup"><img className="bottom_1" src={navImg[5]} alt=""/></Link>
+                        </NavWrapper>
+                    )
+                }
+            </Fragment>
         );
     }
 };

@@ -13,22 +13,26 @@ class Recommend extends PureComponent{
         const recommendList = this.props.recommendList.toJS();
         return (
             <RecommendWrapper>
-                <img src={navImg} alt=""/>
-                <div className="RecommendList">
-                    {
-                        recommendList.map((item) => (
-                            
-                            <div key={item.id} className="RecommendItem">
-                                <Link to="/info">
-                                <img src={item.imgUrl} alt=""/>
-                                <p>{item.title}</p>
-                                <span>{item.price}</span>
-                                </Link>
-                            </div>
-                            
-                        ))
-                    }
-                </div>
+                <img src={navImg||''} alt=""/>
+                {
+                    recommendList.length === 0 ? '' : 
+                    (
+                        <div className="RecommendList">
+                            {
+                                recommendList.map((item) => (
+                                    
+                                    <div key={item.id} className="RecommendItem">
+                                        <Link to="/info">
+                                        <img src={item.imgUrl} alt=""/>
+                                        <p>{item.title}</p>
+                                        <span>{item.price}</span>
+                                        </Link>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                    )
+                }
             </RecommendWrapper>
         )
     }

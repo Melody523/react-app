@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import { ChooseTypeWrapper } from './style';
 import { connect } from 'react-redux';
 import { Carousel } from 'antd';
@@ -68,27 +68,35 @@ class ChooseType extends PureComponent {
                 index = 0;
             }
             return (
-                <div className="comment_item" key={obj.goodsCommentId}>
-                    <div className="top">
-                        <img src={obj.avatarKaola} alt="" />
-                        <div className="center">
-                            <span className="nickname">{obj.nicknameKaola}</span>
-                            <span className="reg_day">加入网易考拉{obj.userRegisterDay}天</span>
-                        </div>
-                        <span className="updata_time">{obj.updateTime}</span>
-                    </div>
-                    <p className="middle">{obj.commentContent}</p>
-                    <span className="product_type">颜色：{obj.skuPropertyList[0].propertyValue}</span>
-                    <div className="images">
-                        <div className="images_list">
-                            {
-                                obj.imgUrls.map((item, index) => (
-                                    <img key={index} src={item} alt="" className="zmage" onClick={() => { this.changeMask(commentList.list[index].imgUrls) }} />
-                                ))
-                            }
-                        </div>
-                    </div>
-                </div>
+                <Fragment>
+                    {
+                        commentList.list === undefined ? '' :
+                        (
+                            <div className="comment_item" key={obj.goodsCommentId}>
+                                <div className="top">
+                                    <img src={obj.avatarKaola} alt="" />
+                                    <div className="center">
+                                        <span className="nickname">{obj.nicknameKaola}</span>
+                                        <span className="reg_day">加入网易考拉{obj.userRegisterDay}天</span>
+                                    </div>
+                                    <span className="updata_time">{obj.updateTime}</span>
+                                </div>
+                                <p className="middle">{obj.commentContent}</p>
+                                <span className="product_type">颜色：{obj.skuPropertyList[0].propertyValue}</span>
+                                <div className="images">
+                                    <div className="images_list">
+                                        {
+                                            obj.imgUrls.map((item, index) => (
+                                                <img key={index} src={item} alt="" className="zmage" onClick={() => { this.changeMask(commentList.list[index].imgUrls) }} />
+                                            ))
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        )
+                    }
+                </Fragment>
+                
             );
         };
         return (

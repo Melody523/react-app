@@ -5,7 +5,6 @@ import { Carousel } from 'antd';
 import * as ActionCreator from '../../page/Home/store/ActionCreator'
 
 class CarouselComponent extends PureComponent{
-    
     componentDidMount() {
         this.props.getCarouselList();
     }
@@ -13,30 +12,35 @@ class CarouselComponent extends PureComponent{
         const { carouselList, imgHeight } = this.props;
         return(
             <CarouselWrapper>
-                <Carousel
-                    autoplay
-                    infinite
-                >
                 {
-                    carouselList.toJS().map((item) => (
-                        <div
-                            key={item.id}
-                            href="#"
-                            style={{ display: 'inline-block', width: '100%', height: imgHeight }}
+                    carouselList.toJS().length === 0 ? '' :
+                    (
+                        <Carousel
+                            autoplay
+                            infinite
                         >
-                            <img
-                                src={item.imgUrl}
-                                alt=""
-                                style={{ width: '100%', verticalAlign: 'top' }}
-                                onLoad={() => {
-                                    window.dispatchEvent(new Event('resize'));
-                                    this.setState({ imgHeight: 'auto' });
-                                }}
-                            />
-                        </div>
-                    ))
+                        {
+                            carouselList.toJS().map((item) => (
+                                <div
+                                    key={item.id}
+                                    href="#"
+                                    style={{ display: 'inline-block', width: '100%', height: imgHeight }}
+                                >
+                                    <img
+                                        src={item.imgUrl}
+                                        alt=""
+                                        style={{ width: '100%', verticalAlign: 'top' }}
+                                        onLoad={() => {
+                                            window.dispatchEvent(new Event('resize'));
+                                            this.setState({ imgHeight: 'auto' });
+                                        }}
+                                    />
+                                </div>
+                            ))
+                        }
+                        </Carousel>
+                    )
                 }
-                </Carousel>
             </CarouselWrapper>
         )
     }

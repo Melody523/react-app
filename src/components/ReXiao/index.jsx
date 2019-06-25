@@ -36,112 +36,132 @@ class ReXiao extends PureComponent{
         const rexiaoList = this.props.rexiaoList.toJS();
         return (
             <ReXiaoWrapper>
-                <img src={topImg} alt=""/>
-                <img src={titleImg} alt=""/>
+                <img src={topImg||''} alt=""/>
+                <img src={titleImg||''} alt=""/>
                     <Tabs tabs={tabs}
                     initialPage={1}
                     swipeable={false}
                     renderTabBar={renderTabBar}
                     >
                     <div className="tab_container">
-                        <ul className="tab_list">
-                            {
-                                rexiaoList.map((item) => (
-                                    <Link to="/info" key={item.id}>
-                                    <li className="tab_item">
-                                        <div className="img">
-                                            <img src={item.imgUrl} alt=""/>
-                                            <span>{item.pty}</span>
-                                        </div>
-                                        
-                                        <p>{item.title}</p>
-                                        <div>
-                                            <div>
-                                                <p>{item.new_price}</p>
-                                                <p>{item.old_price}</p>
-                                            </div>
-                                            <div className="qiang">抢</div>
-                                        </div>
-                                    </li>
-                                    </Link>
-                                ))
-                            }
-                        </ul>
+                        {
+                            rexiaoList.length === 0 ? '' : 
+                            (
+                                <ul className="tab_list">
+                                    {
+                                        rexiaoList.map((item) => (
+                                            <Link to="/info" key={item.id}>
+                                            <li className="tab_item">
+                                                <div className="img">
+                                                    <img src={item.imgUrl} alt=""/>
+                                                    <span>{item.pty}</span>
+                                                </div>
+                                                
+                                                <p>{item.title}</p>
+                                                <div>
+                                                    <div>
+                                                        <p>{item.new_price}</p>
+                                                        <p>{item.old_price}</p>
+                                                    </div>
+                                                    <div className="qiang">抢</div>
+                                                </div>
+                                            </li>
+                                            </Link>
+                                        ))
+                                    }
+                                </ul>
+                            )
+                        }
                     </div> 
                     <div className="tab_container">
-                        <ul className="tab_list">
-                            {
-                                rexiaoList.map((item) => (
-                                    <Link to="/info" key={item.id}>
-                                    <li className="tab_item">
-                                        <div className="img">
-                                            <img src={item.imgUrl} alt=""/>
-                                            <span>{item.pty}</span>
-                                        </div>
-                                        
-                                        <p>{item.title}</p>
-                                        <div>
-                                            <div>
-                                                <p>{item.new_price}</p>
-                                                <p>{item.old_price}</p>
-                                            </div>
-                                            <div className="qiang">抢</div>
-                                        </div>
-                                    </li>
-                                    </Link>
-                                ))
-                            }
-                        </ul>
+                    {
+                            rexiaoList.length === 0 ? '' : 
+                            (
+                                <ul className="tab_list">
+                                    {
+                                        rexiaoList.map((item) => (
+                                            <Link to="/info" key={item.id}>
+                                            <li className="tab_item">
+                                                <div className="img">
+                                                    <img src={item.imgUrl} alt=""/>
+                                                    <span>{item.pty}</span>
+                                                </div>
+                                                
+                                                <p>{item.title}</p>
+                                                <div>
+                                                    <div>
+                                                        <p>{item.new_price}</p>
+                                                        <p>{item.old_price}</p>
+                                                    </div>
+                                                    <div className="qiang">抢</div>
+                                                </div>
+                                            </li>
+                                            </Link>
+                                        ))
+                                    }
+                                </ul>
+                            )
+                        }
                     </div> 
                     <div className="tab_container">
-                        <ul className="tab_list">
-                            {
-                                rexiaoList.map((item) => (
-                                    <Link to="/info" key={item.id}>
-                                    <li className="tab_item">
-                                        <div className="img">
-                                            <img src={item.imgUrl} alt=""/>
-                                            <span>{item.pty}</span>
-                                        </div>
-                                        
-                                        <p>{item.title}</p>
-                                        <div>
-                                            <div>
-                                                <p>{item.new_price}</p>
-                                                <p>{item.old_price}</p>
-                                            </div>
-                                            <div className="qiang">抢</div>
-                                        </div>
-                                    </li>
-                                    </Link>
-                                ))
-                            }
-                        </ul>
+                    {
+                            rexiaoList.length === 0 ? '' : 
+                            (
+                                <ul className="tab_list">
+                                    {
+                                        rexiaoList.map((item) => (
+                                            <Link to="/info" key={item.id}>
+                                            <li className="tab_item">
+                                                <div className="img">
+                                                    <img src={item.imgUrl} alt=""/>
+                                                    <span>{item.pty}</span>
+                                                </div>
+                                                
+                                                <p>{item.title}</p>
+                                                <div>
+                                                    <div>
+                                                        <p>{item.new_price}</p>
+                                                        <p>{item.old_price}</p>
+                                                    </div>
+                                                    <div className="qiang">抢</div>
+                                                </div>
+                                            </li>
+                                            </Link>
+                                        ))
+                                    }
+                                </ul>
+                            )
+                        }
                     </div> 
                     <div className="tab_container">
-                        <ul className="tab_list">
-                            {
-                                rexiaoList.map((item) => (
-                                    <Link to="/info" key={item.id}>
-                                    <li className="tab_item">
-                                        <div className="img">
-                                            <img src={item.imgUrl} alt=""/>
-                                            <span>{item.pty}</span>
-                                        </div>
-                                        
-                                        <p>{item.title}</p>
-                                        <div>
-                                            <div>
-                                                <p>{item.new_price}</p>
-                                                <p>{item.old_price}</p>
-                                            </div>
-                                            <div className="qiang">抢</div>
-                                        </div>
-                                    </li>
-                                    </Link>
-                                ))
-                            }
-                        </ul>
+                    {
+                            rexiaoList.length === 0 ? '' : 
+                            (
+                                <ul className="tab_list">
+                                    {
+                                        rexiaoList.map((item) => (
+                                            <Link to="/info" key={item.id}>
+                                            <li className="tab_item">
+                                                <div className="img">
+                                                    <img src={item.imgUrl} alt=""/>
+                                                    <span>{item.pty}</span>
+                                                </div>
+                                                
+                                                <p>{item.title}</p>
+                                                <div>
+                                                    <div>
+                                                        <p>{item.new_price}</p>
+                                                        <p>{item.old_price}</p>
+                                                    </div>
+                                                    <div className="qiang">抢</div>
+                                                </div>
+                                            </li>
+                                            </Link>
+                                        ))
+                                    }
+                                </ul>
+                            )
+                        }
                     </div> 
                     </Tabs>
             </ReXiaoWrapper>

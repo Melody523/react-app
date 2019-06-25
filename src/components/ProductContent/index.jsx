@@ -24,15 +24,19 @@ class ProductContent extends PureComponent{
                 poster="//haitao.nos.netease.com/141b892cf7c14085ae34b547f24abdde.jpg" 
                 src="//haitao.nos.netease.com/9b78333b58424947b0f22f53b8006ec7.mp4" >
                 </video>
-                <div className="img_list">
-                    {
-                        imageList.map((item, index) => (
-                            <div key={index} className="img_item">
-                                <img src={item} alt=""/>
-                            </div>
-                        ))
-                    }
-                </div>
+                {
+                    imageList.length === 0 ? '' : (
+                        <div className="img_list">
+                            {
+                                imageList.map((item, index) => (
+                                    <div key={index} className="img_item">
+                                        <img src={item} alt=""/>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                    )
+                }
                 <div className="user_content">
                     <div className="title">
                         <span className="title_content">使用心得</span>
@@ -72,7 +76,7 @@ class ProductContent extends PureComponent{
                     </div>
                 </div>
                 <div className="shouhou">
-                    <div dangerouslySetInnerHTML={{__html: shouhou.content}}></div>
+                    <div dangerouslySetInnerHTML={{__html: shouhou.content||''}}></div>
                 </div>
             </ProductContentWrapper>
         )

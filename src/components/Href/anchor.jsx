@@ -21,20 +21,25 @@ class NavAnchor extends PureComponent {
         const makeupNav = this.props.makeupNav.toJS();
         return (
             <Anchor>
-                <ul className="nav_list">
-                    {
-                        makeupNav.map((item) => (
-                            <Link key={item.id}>
-                                <a onClick={() => this.scrollToAnchor(item.href)}>
-                                    <li className="nav_item">
-                                        <img src={item.imgUrl} alt="" />
-                                        <p>{item.title}</p>
-                                    </li>
-                                </a>
-                            </Link>
-                        ))
-                    }
-                </ul>
+                {
+                    makeupNav.length === 0 ? '' : 
+                    (
+                        <ul className="nav_list">
+                            {
+                                makeupNav.map((item) => (
+                                    <Link key={item.id}>
+                                        <a onClick={() => this.scrollToAnchor(item.href)}>
+                                            <li className="nav_item">
+                                                <img src={item.imgUrl} alt="" />
+                                                <p>{item.title}</p>
+                                            </li>
+                                        </a>
+                                    </Link>
+                                ))
+                            }
+                        </ul>
+                    )
+                }
             </Anchor>
         )
     }

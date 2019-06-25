@@ -25,7 +25,7 @@ class Header extends PureComponent{
         return (
             <Fragment>
                 <HeaderWrapper>
-                    <div className="title">购物车<span>({cartList.allCount})</span></div>
+                    <div className="title">购物车<span>({cartList.allCount||''})</span></div>
                     <Link to="/"><span className="iconfont">&#xe61a;</span></Link>
                     <Link to="/mine"><img className="logo" src="https://haitao.nosdn2.127.net/vtgcByWTZlKwtnRQvhvLT170102401020_150_150.png?imageView&thumbnail=40x0&quality=75" alt=""/>
                     </Link>

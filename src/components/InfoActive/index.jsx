@@ -143,66 +143,71 @@ class InfoActive extends PureComponent{
             <InfoActionWrapper>
                 <p className="fenge"></p>
                 <div className="action_content">
-                    <ul className="action_list">
-                        {
-                            actionList.map((item, index) => (
-                                <li key={item.id} 
-                                    className="action_item" 
-                                    onClick={()=>{this.showDrawer(index)}}
-                                >
-                                    <span className="type">{item.type}</span>
-                                    {
-                                        item.id===5?
-                                        (
-                                            <div className="shuoming">
-                                                {
-                                                    item.title.map((item, index)=> (
-                                                        <div key={index}>
-                                                            <span className="dot"></span>
-                                                            <span className="title">{item}</span>
-                                                        </div>
-                                                        
-                                                    ))
-                                                }
-                                            </div>
-                                        ):
-                                        (
-                                            <div className="container">
-                                                {
-                                                    item.id===3?(
-                                                            <Picker
-                                                                title="选择地区"
-                                                                extra="请选择(可选)"
-                                                                data={antdDistrict}
-                                                                value={this.state.pickerValue}
-                                                                onChange={v => this.setState({ pickerValue: v })}
-                                                                onOk={v => this.setState({ pickerValue: v })}
-                                                                onClick={()=>{console.log('xx')}}
-                                                            >
-                                                                <CustomChildren>至   </CustomChildren>
-                                                            </Picker>
-                                                    ):(
-                                                        item.id===1?
-                                                        <span className="title">
-                                                            {
-                                                                this.state.chooseIndex===null?'颜色 请选择服务': (this.state.colorType+'  一年质保无忧退')
-                                                            }
-                                                        </span>:
-                                                    <span className={item.id===2?"title color":"title"}>{item.title}</span>
-                                                    )
-                                                }
-                                            </div>
-                                        )
-                                    }
-                                    <span className="iconfont">&#xe634;</span>
-                                </li>
-                            ))
-                        }
-                    </ul>
+                    {
+                        actionList.length === 0 ? '' : 
+                        (
+                            <ul className="action_list">
+                                {
+                                    actionList.map((item, index) => (
+                                        <li key={item.id} 
+                                            className="action_item" 
+                                            onClick={()=>{this.showDrawer(index)}}
+                                        >
+                                            <span className="type">{item.type}</span>
+                                            {
+                                                item.id===5?
+                                                (
+                                                    <div className="shuoming">
+                                                        {
+                                                            item.title.map((item, index)=> (
+                                                                <div key={index}>
+                                                                    <span className="dot"></span>
+                                                                    <span className="title">{item}</span>
+                                                                </div>
+                                                                
+                                                            ))
+                                                        }
+                                                    </div>
+                                                ):
+                                                (
+                                                    <div className="container">
+                                                        {
+                                                            item.id===3?(
+                                                                    <Picker
+                                                                        title="选择地区"
+                                                                        extra="请选择(可选)"
+                                                                        data={antdDistrict}
+                                                                        value={this.state.pickerValue}
+                                                                        onChange={v => this.setState({ pickerValue: v })}
+                                                                        onOk={v => this.setState({ pickerValue: v })}
+                                                                        onClick={()=>{console.log('xx')}}
+                                                                    >
+                                                                        <CustomChildren>至   </CustomChildren>
+                                                                    </Picker>
+                                                            ):(
+                                                                item.id===1?
+                                                                <span className="title">
+                                                                    {
+                                                                        this.state.chooseIndex===null?'颜色 请选择服务': (this.state.colorType+'  一年质保无忧退')
+                                                                    }
+                                                                </span>:
+                                                            <span className={item.id===2?"title color":"title"}>{item.title}</span>
+                                                            )
+                                                        }
+                                                    </div>
+                                                )
+                                            }
+                                            <span className="iconfont">&#xe634;</span>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                        )
+                    }
                 </div>
                 <div>
                     <Drawer
-                    title={productColor.title}
+                    title={productColor.title||''}
                     placement="bottom"
                     closable={true}
                     onClose={()=>{this.onClose(this.state.index)}}
@@ -299,16 +304,21 @@ class InfoActive extends PureComponent{
                     height={'auto'}
                 >
                     <div>
-                        <ShuoMing>
-                            {
-                                shuomingInfo.map((item, index) => (
-                                    <li key={index}>
-                                        <h3><span className="dot"></span>{item.detailTitle}</h3>
-                                        <p>{item.detailContentList}</p>
-                                    </li>
-                                ))
-                            }
-                        </ShuoMing>
+                        {
+                            shuomingInfo.length === 0 ? '' : 
+                            (
+                                <ShuoMing>
+                                    {
+                                        shuomingInfo.map((item, index) => (
+                                            <li key={index}>
+                                                <h3><span className="dot"></span>{item.detailTitle}</h3>
+                                                <p>{item.detailContentList}</p>
+                                            </li>
+                                        ))
+                                    }
+                                </ShuoMing>
+                            )
+                        }
                     </div>
                     </Drawer>
                 </div>

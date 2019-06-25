@@ -26,22 +26,27 @@ class InfoHeader extends PureComponent{
                 <div className="nav">
                     <ReturnLink onClick={this.goback.bind(this)}></ReturnLink>
                     <div className="center">
-                    <Anchor>
                         {
-                            navList.map((item, index) => (
-                                // <Link key={index} href={item.link} title={item.title}
-                                //     className={this.props.index===index?'active':''}
-                                //     onClick={()=> {changeIndex(index)}}
-                                // >
-                                // </Link>
-                                <Link key={item.title} >
-                                    <div onClick={() => this.scrollToAnchor(item.link, index)} className={this.props.index===index?'link active':'link'}>
-                                        {item.title}
-                                    </div>
-                                </Link>
-                            ))
+                            navList.length === 0 ? '' : 
+                            (
+                                <Anchor>
+                                    {
+                                        navList.map((item, index) => (
+                                            // <Link key={index} href={item.link} title={item.title}
+                                            //     className={this.props.index===index?'active':''}
+                                            //     onClick={()=> {changeIndex(index)}}
+                                            // >
+                                            // </Link>
+                                            <Link key={item.title} >
+                                                <div onClick={() => this.scrollToAnchor(item.link, index)} className={this.props.index===index?'link active':'link'}>
+                                                    {item.title}
+                                                </div>
+                                            </Link>
+                                        ))
+                                    }
+                                </Anchor>
+                            )
                         }
-                    </Anchor>
                     </div>
                     <SubLink></SubLink>
                 </div>

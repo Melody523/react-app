@@ -22,7 +22,7 @@ class Header extends PureComponent{
                         <p>只看当前商品</p>
                     </div>
                     <div className="right">
-                        {commentList.productgrade}好评
+                        {commentList.productgrade||''}好评
                     </div>
                 </div> 
             </HeaderWrapper>
