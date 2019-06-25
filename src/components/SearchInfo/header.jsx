@@ -102,32 +102,40 @@ class Header extends PureComponent{
               index = 0;
             } 
             return (
-                <Link to="/info">
-                <div className="main_item"key={obj.id||''}>
-                <img src={obj.imageUrl} alt=""/>
-                <p className="title">{obj.title}</p>
-                {
-                    obj.keyProperty===undefined?'':
-                    (<span className="keyProperty">{obj.keyProperty[0]}</span>)
-                }
-                <div className="price">
-                    <span className="new_price">￥{obj.actualCurrentPrice}</span>
-                    <span className="old_price">￥{obj.marketPrice}</span>
-                </div>
-                <div className="benefit">
-                    <div className="benefit_list">
-                    <span className="left">自营</span>
-                        {
-                            obj.benefitPoint.map((item, index) => (
-                                <span className="benefit_item" key={index}>
-                                    {item}
-                                </span>
-                            ))
-                        }
-                    </div>
-                </div>
-            </div>
-            </Link>
+                <Fragment>
+                    {
+                        obj.length === 0 ? '' : 
+                        (
+                            <Link to="/info">
+                                <div className="main_item"key={obj.id||''}>
+                                <img src={obj.imageUrl} alt=""/>
+                                <p className="title">{obj.title}</p>
+                                {
+                                    obj.keyProperty===undefined?'':
+                                    (<span className="keyProperty">{obj.keyProperty[0]}</span>)
+                                }
+                                <div className="price">
+                                    <span className="new_price">￥{obj.actualCurrentPrice}</span>
+                                    <span className="old_price">￥{obj.marketPrice}</span>
+                                </div>
+                                <div className="benefit">
+                                    <div className="benefit_list">
+                                    <span className="left">自营</span>
+                                        {
+                                            obj.benefitPoint.map((item, index) => (
+                                                <span className="benefit_item" key={index}>
+                                                    {item}
+                                                </span>
+                                            ))
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            </Link>
+                        )
+                    }
+                </Fragment>
+                
             );
           };
         return (
