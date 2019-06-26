@@ -7,6 +7,17 @@
 1. React中使用HashRouter会与使用锚点滚动的a标签中的href产生冲突。  
 解决：对a标签绑定点击事件，传入对应跳转的id，利用document.getElementById方法查询到锚点，再利用h5中的方法scrollIntoView跳转到对应的id标签；
 ```
+scrollToAnchor(anchorName) {
+    anchorName = anchorName.slice(1)
+    if (anchorName) {
+        // 找到锚点
+        let anchorElement = document.getElementById(anchorName);
+        // 如果对应id的锚点存在，就跳转到锚点
+        if (anchorElement) { anchorElement.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
+    }
+}
+```
+```
 <a onClick={() => this.scrollToAnchor(item.href)}>
     <li className="nav_item">
     	<img src={item.imgUrl} alt="" />
@@ -20,17 +31,6 @@
 * 将锚点用传统的name属性，改成id属性。这样我们就可以用document.getElementById方法方便查询到锚点。
 * 将原来的红色按钮的href属性去掉，然后添加一个onClick方法。onClick方法传入一个锚点的id，然后用下面的函数来找到锚点并跳转到锚点。
 
-```
-scrollToAnchor(anchorName) {
-    anchorName = anchorName.slice(1)
-    if (anchorName) {
-        // 找到锚点
-        let anchorElement = document.getElementById(anchorName);
-        // 如果对应id的锚点存在，就跳转到锚点
-        if (anchorElement) { anchorElement.scrollIntoView({ block: 'start', behavior: 'smooth' }); }
-    }
-}
-```
 
 3. 实现不同的视图中进行切换，并自定义tabs不仅限于字符串的title.  
 解决：antd-mobile中Tabs组件可以对不同视图进行切换，需引入Badge组件，Badge组件主要是用于设置图标右上角的红点，但可在Badge内写span等标签自定义tabs的title；在tabs和内容之间若需要添加公用内容，可利用 renderTab进行重新封装，在<Tabs.DefaultTabBar {...props} />下添加公用内容；  
